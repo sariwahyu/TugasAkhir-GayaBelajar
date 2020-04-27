@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Apr 27 14:05:15 ICT 2020
+#Mon Apr 27 15:10:50 ICT 2020
 2.path=bin/Data/Managed/UnityEngine.Networking.dll
 14.set=ASSET
 107.baseType=DIRECTORY

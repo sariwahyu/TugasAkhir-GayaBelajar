@@ -305,7 +305,6 @@ fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadIndex
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 60299e3256cefab3692cd76700ee58c7 Assembly-CSharp.dll:.TrackableSettings
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VideoTrackableEventHandler
 3d2532a381856470592980feeb41f060 Assembly-CSharp.dll:.SceneOrientation
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultInitializationErrorHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MessageBox
@@ -331,9 +330,7 @@ c312fcfdc704c07bde804c0cf8b879eb Assembly-CSharp.dll:.MenuAnimator
 dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandler
 9870d07becb995371db036f64345cf30 Assembly-CSharp.dll:.FrameQualityMeter
 716f7c2ef42786f749432eef57f8a2f1 Assembly-CSharp.dll:.CloudRecoEventHandler
-03fbac61e56b98eb4874a456217f1503 Assembly-CSharp.dll:.ModelSwap
 1bc1648c519e8fc90c758f59d71bdf8f Assembly-CSharp.dll:.SamplesMainMenu
-d94025473ea0f97746a30235ecf4f742 Assembly-CSharp.dll:.VideoController
 5deb05d50bbaea852849b56df66bb301 Assembly-CSharp.dll:.SafeAreaManager
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FrameRateSettings
 6f3f834630b8c842f18320156d98e63a Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
