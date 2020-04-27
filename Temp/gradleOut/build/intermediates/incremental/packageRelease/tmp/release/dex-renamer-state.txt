@@ -1,0 +1,4 @@
+#Mon Apr 27 12:06:46 ICT 2020
+base.0=D\:\\[BAMS]\\sekolah\\kuliah\\materi\\TAUN 4\\TugasAkhir-GayaBelajar\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
