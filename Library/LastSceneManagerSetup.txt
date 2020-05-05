@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SamplesResources/Scenes/3-ObjectReco.unity
+- path: Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
   isLoaded: 1
   isActive: 1
