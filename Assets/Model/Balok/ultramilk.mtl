@@ -1,0 +1,13 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl gift_box_tape
+Ns 58.999999
+Ka 1.000000 1.000000 1.000000
+Kd 0.666700 0.478400 0.231400
+Ks 0.383667 0.383667 0.383667
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd D:\\[BAMS]\\sekolah\\kuliah\\materi\\TAUN 4\\TugasAkhir-Model\\BALOK\\model\\ultra_milk_chocolate.jpg
