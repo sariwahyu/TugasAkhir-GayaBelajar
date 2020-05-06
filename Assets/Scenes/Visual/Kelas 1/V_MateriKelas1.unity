@@ -223,10 +223,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.602478, y: 221.45087}
-  m_SizeDelta: {x: 264.6, y: 77.9}
+  m_AnchorMin: {x: 0, y: 0.77800006}
+  m_AnchorMax: {x: 1, y: 0.9092501}
+  m_AnchoredPosition: {x: 0.602478, y: 1.4508667}
+  m_SizeDelta: {x: -95.399994, y: -6.100006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160013654
 MonoBehaviour:
@@ -261,7 +261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Penganalan Bangun Ruang
+  m_Text: Pengenalan Bangun Ruang
 --- !u!222 &160013655
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -303,10 +303,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -146.39752, y: 284.45087}
-  m_SizeDelta: {x: 45, y: 45}
+  m_AnchorMin: {x: 0.027777778, y: 0.9092501}
+  m_AnchorMax: {x: 0.15555558, y: 0.98125}
+  m_AnchoredPosition: {x: 0.602478, y: -0.5491333}
+  m_SizeDelta: {x: -1, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266885190
 MonoBehaviour:
@@ -511,10 +511,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.39752197, y: -160.54913}
-  m_SizeDelta: {x: 270.1, y: 84.6}
+  m_AnchorMin: {x: 0, y: 0.18587501}
+  m_AnchorMax: {x: 1, y: 0.31550008}
+  m_AnchoredPosition: {x: -0.39752197, y: -1.0491333}
+  m_SizeDelta: {x: -89.899994, y: 1.5999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &639098560
 MonoBehaviour:
@@ -698,10 +698,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.39752197, y: -66.54913}
-  m_SizeDelta: {x: 270.1, y: 84.6}
+  m_AnchorMin: {x: 0, y: 0.33131254}
+  m_AnchorMax: {x: 1, y: 0.460875}
+  m_AnchoredPosition: {x: -0.39752197, y: -0.0491333}
+  m_SizeDelta: {x: -89.899994, y: 1.5999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016267941
 MonoBehaviour:
@@ -963,10 +963,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.39752197, y: 29.450867}
-  m_SizeDelta: {x: 270.1, y: 84.6}
+  m_AnchorMin: {x: 0, y: 0.4875}
+  m_AnchorMax: {x: 1, y: 0.60931253}
+  m_AnchoredPosition: {x: -0.39752197, y: -1.5491333}
+  m_SizeDelta: {x: -89.899994, y: 6.5999985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198707516
 MonoBehaviour:
@@ -1158,10 +1158,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.025013, y: 6}
-  m_SizeDelta: {x: 359.95, y: 652}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.024993896, y: 6}
+  m_SizeDelta: {x: -0.049987793, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263427216
 MonoBehaviour:
@@ -1234,10 +1234,10 @@ RectTransform:
   m_Father: {fileID: 1725510573}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.39752197, y: 123.45087}
-  m_SizeDelta: {x: 270.1, y: 84.6}
+  m_AnchorMin: {x: 0, y: 0.6205}
+  m_AnchorMax: {x: 1, y: 0.75781256}
+  m_AnchoredPosition: {x: -0.39752197, y: 2.4508667}
+  m_SizeDelta: {x: -89.899994, y: -3.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303437561
 MonoBehaviour:
@@ -1278,7 +1278,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1303437562}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1041621743}
+        m_MethodName: SceneLoaderString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: V1_Kubus
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1303437562

@@ -177,7 +177,7 @@ Transform:
   m_Children:
   - {fileID: 2563242380361625343}
   - {fileID: 2563242380433512743}
-  - {fileID: 7585132731466867206}
+  - {fileID: 7173936170686508673}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1901,10 +1901,10 @@ RectTransform:
   m_Father: {fileID: 2563242379850247179}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8186401, y: 0.842314}
-  m_AnchorMax: {x: 0.97640055, y: 0.984}
-  m_AnchoredPosition: {x: 1.5, y: -1.5}
-  m_SizeDelta: {x: -22, y: -26}
+  m_AnchorMin: {x: 0.81428015, y: 0.84032303}
+  m_AnchorMax: {x: 0.97879976, y: 0.97400004}
+  m_AnchoredPosition: {x: 2, y: 1.5}
+  m_SizeDelta: {x: -25, y: -22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2563242380925355005
 CanvasRenderer:
@@ -2619,7 +2619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37291775449785f4b9ad907f21098f3b, type: 3}
---- !u!4 &7585132731466867206 stripped
+--- !u!4 &7173936170686508673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 778347546389843099, guid: 37291775449785f4b9ad907f21098f3b,
     type: 3}
