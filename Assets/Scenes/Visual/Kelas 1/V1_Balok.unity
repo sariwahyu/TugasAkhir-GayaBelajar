@@ -538,7 +538,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 708b0116afa93a1438d77b65d5a7ef6f, type: 3}
 --- !u!114 &49472460 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8331472291806441703, guid: 708b0116afa93a1438d77b65d5a7ef6f,
+  m_CorrespondingSourceObject: {fileID: 6863166172107267453, guid: 708b0116afa93a1438d77b65d5a7ef6f,
     type: 3}
   m_PrefabInstance: {fileID: 49472459}
   m_PrefabAsset: {fileID: 0}
