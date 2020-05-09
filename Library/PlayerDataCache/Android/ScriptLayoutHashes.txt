@@ -3,6 +3,10 @@ PlayerPath?
 D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/test1.apk
 SceneListBegin?
 Assets/Scenes/Visual/Kelas 1/V_MateriKelas1.unity
+Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
+Assets/Scenes/Visual/Kelas 1/V1_Balok.unity
+Assets/Scenes/Visual/Kelas 1/V1_Tabung.unity
+Assets/Scenes/Visual/Kelas 1/V1_Bola.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
