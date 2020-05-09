@@ -615,7 +615,7 @@ PrefabInstance:
     - target: {fileID: 1125043260413261985, guid: 7b1fd089cd050854dabf731479d08760,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V_MateriKelas2
+      value: KelasVisual
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b1fd089cd050854dabf731479d08760, type: 3}
