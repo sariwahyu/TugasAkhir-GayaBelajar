@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1756795292036055202}
   - component: {fileID: 1756795292036055203}
   m_Layer: 5
-  m_Name: UI_MateriKelas1
+  m_Name: UI_V_MateriKelas1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,8 +856,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.78749996}
   m_AnchorMax: {x: 1, y: 0.9796875}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
-  m_SizeDelta: {x: 0, y: -0.000045776}
+  m_AnchoredPosition: {x: 0, y: 15.382}
+  m_SizeDelta: {x: 0, y: 30.764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1756795293098850823
 Canvas:
@@ -1109,10 +1109,10 @@ RectTransform:
   m_Father: {fileID: 1756795293098850818}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 30.450867}
-  m_SizeDelta: {x: -55.100006, y: 77.9}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -44}
+  m_SizeDelta: {x: 464.9, y: 77.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1756795293492571742
 CanvasRenderer:

@@ -2,6 +2,11 @@ Android
 PlayerPath?
 D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/test1.apk
 SceneListBegin?
+Assets/Scenes/MainMenu.unity
+Assets/Scenes/GayaBelajar.unity
+Assets/Scenes/KelasAuditori.unity
+Assets/Scenes/KelasKinestetik.unity
+Assets/Scenes/KelasVisual.unity
 Assets/Scenes/Visual/Kelas 1/V_MateriKelas1.unity
 Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
 Assets/Scenes/Visual/Kelas 1/V1_Balok.unity
