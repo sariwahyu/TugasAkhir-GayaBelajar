@@ -5,34 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 4ccf87a05e9052641a2149d081e9c594
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GayaBelajar.unity
     guid: 508ac211db96b0d42a38b785d9901ae3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KelasAuditori.unity
     guid: c35c35b28418f7f47beb605b0d39b488
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KelasKinestetik.unity
     guid: 6073e04d33999ef42b0a9465b3d62485
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KelasVisual.unity
     guid: 15c8e5d8394251d4d8c6841d4beaeb15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V_MateriKelas1.unity
     guid: 8df440e97598cef4f80b230cbfb9548f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
     guid: 3c731dab766ad0d45ac7f34ca682ac51
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V1_Balok.unity
     guid: 029cbe4df90197b489e2e330ef8d1341
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V1_Tabung.unity
     guid: 5c2748d7fbe0dc845b4aab03a1393524
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V1_Bola.unity
     guid: 85ec0c43ee0501b4b8df64cc72fd9c16
+  - enabled: 1
+    path: Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
+    guid: 05ab2fd586cfc724fab79b4748ab6edb
   m_configObjects: {}
