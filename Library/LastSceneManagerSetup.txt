@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
+- path: Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
   isLoaded: 1
   isActive: 1

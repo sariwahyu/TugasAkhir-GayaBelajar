@@ -98,6 +98,7 @@
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkTrackableEventHandler.cs" />
     <Compile Include="Assets\Script\LoadIndex.cs" />
     <Compile Include="Assets\Script\SetActiveChildGlobal.cs" />
+    <Compile Include="Assets\Script\SetActiveChildGlobalv2.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SudutA
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00057000003
@@ -244,7 +248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1066,6 +1070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SudutB
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.007083334
@@ -1096,7 +1104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1326,7 +1334,7 @@ MonoBehaviour:
   timeChange4: 10
   timeChange5: 12
   timeChange6: 14
-  timeChange7: 18
+  timeChange7: 16
   timeChange8: 0
   timeChange9: 0
   timeChange10: 0
@@ -1585,6 +1593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SudutC
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.007096667
@@ -1615,7 +1627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2400e518eec92c94cbfd2870ae7bfd8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1667,7 +1679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1409370853
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2105,7 +2117,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1898195553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2288,7 +2300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2133463271
 BoxCollider:
   m_ObjectHideFlags: 0
