@@ -766,7 +766,7 @@ Transform:
   m_GameObject: {fileID: 401623587}
   m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.020000007, z: 10}
+  m_LocalScale: {x: 1, y: 0.020000022, z: 10}
   m_Children:
   - {fileID: 622949164}
   m_Father: {fileID: 804465861}
@@ -1131,7 +1131,7 @@ Transform:
   m_GameObject: {fileID: 707346175}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.020000007, z: 10}
+  m_LocalScale: {x: 1, y: 0.020000022, z: 10}
   m_Children:
   - {fileID: 944288652}
   m_Father: {fileID: 804465861}
@@ -1222,7 +1222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801750377}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45, y: -0.45000002, z: 0}
+  m_LocalPosition: {x: -0.45, y: -0.45000005, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 10}
   m_Children:
   - {fileID: 1864489115}
@@ -1408,17 +1408,18 @@ MonoBehaviour:
   timeChange1: 4
   timeChange2: 6
   timeChange3: 8
-  timeChange4: 10
-  timeChange5: 12
-  timeChange6: 14
-  timeChange7: 16
+  timeChange4: 12
+  timeChange5: 14
+  timeChange6: 16
+  timeChange7: 18
   timeChange8: 0
   timeChange9: 0
   timeChange10: 0
   timeChange11: 0
-  timeEnd: 20
+  timeEnd1: 10
+  timeEnd2: 20
   Axis: {x: 0, y: 0, z: 0}
-  Space: 1
+  Space: 0
   Degrees: 0
 --- !u!1 &870458723
 GameObject:
@@ -1858,7 +1859,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103400802}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.45, y: -0.45000002, z: 0}
+  m_LocalPosition: {x: 0.45, y: -0.45000005, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 10}
   m_Children:
   - {fileID: 1406986490}
