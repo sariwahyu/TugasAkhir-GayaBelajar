@@ -2,7 +2,10 @@ Android
 PlayerPath?
 D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/test.apk
 SceneListBegin?
+Assets/Scenes/Visual/Kelas 2/V_NamaBangunDatar.unity
+Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
 Assets/Scenes/Visual/Kelas 2/V2_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 2/V2_Segitiga.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -269,7 +272,6 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 5372ed2ce39229b1ac910757999a8be2 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VuMarkTrackableEventHandler
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-a8b22146a643367da479a63863852b30 Assembly-CSharp.dll:Lean.Touch.SetActiveChildGlobal
 5deb05d50bbaea852849b56df66bb301 Assembly-CSharp.dll:.SafeAreaManager
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -339,3 +341,5 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+a8b22146a643367da479a63863852b30 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiEmpat
+3b500485fe7613bb94849043a2980d62 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiTiga

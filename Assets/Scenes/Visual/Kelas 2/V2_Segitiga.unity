@@ -1323,23 +1323,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1221235909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 240f9f6e63cb2044d9be3d77f2b6bbb6, type: 3}
+  m_Script: {fileID: 11500000, guid: 37ecad0e205afe8448d4377e146632ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeNow: 0
-  timeChange0: 2
-  timeChange1: 4
-  timeChange2: 6
-  timeChange3: 8
-  timeChange4: 10
-  timeChange5: 12
-  timeChange6: 14
-  timeChange7: 16
-  timeChange8: 0
-  timeChange9: 0
-  timeChange10: 0
-  timeChange11: 0
-  timeEnd: 20
+  timeChangeSisi0: 2
+  timeChangeSisi1: 4
+  timeChangeSisi2: 6
+  timeChangeSudut0: 10
+  timeChangeSudut1: 12
+  timeChangeSudut2: 14
+  timeEndSisi: 8
+  timeEndSudut: 16
   Axis: {x: 0, y: 0, z: 0}
   Space: 0
   Degrees: 0

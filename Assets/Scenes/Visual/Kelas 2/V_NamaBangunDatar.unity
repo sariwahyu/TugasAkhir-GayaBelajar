@@ -322,7 +322,7 @@ PrefabInstance:
     - target: {fileID: 6418607163752734137, guid: 78854fe54ec5e7a4b855f1a05b160194,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V2_SegitigaSamaSisi
+      value: V2_Segitiga
       objectReference: {fileID: 0}
     - target: {fileID: 6418607163929167836, guid: 78854fe54ec5e7a4b855f1a05b160194,
         type: 3}
