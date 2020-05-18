@@ -35,16 +35,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Visual/Kelas 1/V1_Bola.unity
     guid: 85ec0c43ee0501b4b8df64cc72fd9c16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V_NamaBangunDatar.unity
     guid: 51e18125bb137df478c4ff1c731cff87
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
     guid: 05ab2fd586cfc724fab79b4748ab6edb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_PersegiPanjang.unity
     guid: 9cc26bd8ee60cc14caed856bce8c777b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_Segitiga.unity
     guid: e2b260a0f5b1a6d458aea68435eb6d54
+  - enabled: 1
+    path: Assets/Scenes/Visual/Kelas 2/V_NamaBangunRuang.unity
+    guid: b6c12f36bbf53104ba3068f2bf6c3eb5
+  - enabled: 1
+    path: Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
+    guid: e0c3bf0064598f8459c384d15702e70a
+  - enabled: 1
+    path: Assets/Scenes/Visual/Kelas 2/V2_Balok.unity
+    guid: f30770c0d5b24be48aec397e99c89b10
   m_configObjects: {}

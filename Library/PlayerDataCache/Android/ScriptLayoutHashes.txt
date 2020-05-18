@@ -2,10 +2,9 @@ Android
 PlayerPath?
 D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/test.apk
 SceneListBegin?
-Assets/Scenes/Visual/Kelas 2/V_NamaBangunDatar.unity
-Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
-Assets/Scenes/Visual/Kelas 2/V2_PersegiPanjang.unity
-Assets/Scenes/Visual/Kelas 2/V2_Segitiga.unity
+Assets/Scenes/Visual/Kelas 2/V_NamaBangunRuang.unity
+Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
+Assets/Scenes/Visual/Kelas 2/V2_Balok.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -220,6 +219,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CloudErrorHandler
 7125fb122fb7d770e4ee0697b73cfab0 Assembly-CSharp.dll:.UDTEventHandler
 c312fcfdc704c07bde804c0cf8b879eb Assembly-CSharp.dll:.MenuAnimator
+a8b22146a643367da479a63863852b30 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiEmpat
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 34d15a5f28652fc061f6a154086ecbf5 Assembly-CSharp.dll:.NavigationHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MenuOptions
@@ -269,6 +269,7 @@ a4eacf27427895be6b0448fa1d76e436 Assembly-CSharp.dll:.PanelShowHide
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadIndex
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 6f3f834630b8c842f18320156d98e63a Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
+3b500485fe7613bb94849043a2980d62 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiTiga
 5372ed2ce39229b1ac910757999a8be2 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VuMarkTrackableEventHandler
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
@@ -341,5 +342,4 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-a8b22146a643367da479a63863852b30 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiEmpat
-3b500485fe7613bb94849043a2980d62 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiTiga
+8cf83f86a98f3959960cb2a582830232 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiEmpat

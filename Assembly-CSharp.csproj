@@ -97,7 +97,9 @@
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkHandler.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkTrackableEventHandler.cs" />
     <Compile Include="Assets\Script\LoadIndex.cs" />
+    <Compile Include="Assets\Script\SetActiveChildLimasSegiEmpat.cs" />
     <Compile Include="Assets\Script\SetActiveChildPrismaSegiEmpat.cs" />
+    <Compile Include="Assets\Script\SetActiveChildPrismaSegiTiga.cs" />
     <Compile Include="Assets\Script\SetActiveChildSegiEmpat.cs" />
     <Compile Include="Assets\Script\SetActiveChildSegiTiga.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
