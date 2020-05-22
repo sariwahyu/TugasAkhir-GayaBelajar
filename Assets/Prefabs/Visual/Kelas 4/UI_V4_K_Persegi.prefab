@@ -212,6 +212,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4985447570772701420}
+    - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V4_K_PersegiPanjang
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259965, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -237,21 +257,47 @@ PrefabInstance:
       propertyPath: m_Text
       value: Persegi
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Bangun datar adalah sebuah obyek benda dua dimensi yang dibatasi oleh
+        garis-garis lurus atau garis lengkung. Bangun datar terdiri dari panjang dan
+        lebar sehingga hanya memiliki luas dan keliling.
+
+
+        Rumus Keliling Persegi = sisi+sisi+sisi+sisi.'
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4794216573955540020}
+      objectReference: {fileID: 4985447570772701420}
     - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V4_K_Segitiga
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ed63f333e071a40a4cf62c96486586, type: 3}
---- !u!1 &4794216573955540020 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5226670261922920386, guid: b7ed63f333e071a40a4cf62c96486586,
+--- !u!114 &4985447570772701420 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5705911594615554842, guid: b7ed63f333e071a40a4cf62c96486586,
     type: 3}
   m_PrefabInstance: {fileID: 720758991800136694}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebe01d888f2904ca7148d7a213f2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

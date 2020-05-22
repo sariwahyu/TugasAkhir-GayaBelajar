@@ -120,7 +120,7 @@ PrefabInstance:
     - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Name
-      value: SegitigaSamaSisi
+      value: Segitiga
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -197,6 +197,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Persegi
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911278, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -216,7 +221,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5487539431880552918}
+      objectReference: {fileID: 6955282576487472201}
     - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -230,13 +235,13 @@ PrefabInstance:
     - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V4_K_SegitigaSamaSisi
+      value: V4_K_Segitiga
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5487539431880552918}
+      objectReference: {fileID: 6955282576487472201}
     - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -266,7 +271,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5487539431880552918}
+      objectReference: {fileID: 6955282576487472201}
     - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -286,7 +291,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5487539431880552918}
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -315,13 +320,13 @@ PrefabInstance:
     - target: {fileID: 1756795292369526853, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
-      value: Segitiga Sama Sisi
+      value: Segitiga
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ae7d9c2c92d8243b86a539ac5f0c54, type: 3}
---- !u!114 &5487539431880552918 stripped
+--- !u!114 &6955282576487472201 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6681832539094627262, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+  m_CorrespondingSourceObject: {fileID: 8078098631224073761, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
     type: 3}
   m_PrefabInstance: {fileID: 1197125449169355368}
   m_PrefabAsset: {fileID: 0}
