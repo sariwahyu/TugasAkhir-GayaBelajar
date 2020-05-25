@@ -1529,30 +1529,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &930806020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930840481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37ecad0e205afe8448d4377e146632ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSudut0: 10
-  timeChangeSudut1: 12
-  timeChangeSudut2: 14
-  timeEndSisi: 8
-  timeEndSudut: 16
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!1 &930840481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1540,6 @@ GameObject:
   - component: {fileID: 930931585}
   - component: {fileID: 927507361}
   - component: {fileID: 928637281}
-  - component: {fileID: 930806020}
   m_Layer: 0
   m_Name: segitigasamasisi
   m_TagString: Untagged
@@ -2461,7 +2436,6 @@ GameObject:
   - component: {fileID: 1703683935}
   - component: {fileID: 1703683938}
   - component: {fileID: 1703683937}
-  - component: {fileID: 1703683936}
   m_Layer: 0
   m_Name: segitigasamasisi2
   m_TagString: Untagged
@@ -2486,30 +2460,6 @@ Transform:
   m_Father: {fileID: 1560062785}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1703683936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1703683934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37ecad0e205afe8448d4377e146632ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSudut0: 10
-  timeChangeSudut1: 12
-  timeChangeSudut2: 14
-  timeEndSisi: 8
-  timeEndSudut: 16
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!23 &1703683937
 MeshRenderer:
   m_ObjectHideFlags: 0

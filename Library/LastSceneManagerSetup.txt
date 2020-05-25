@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
+- path: Assets/Scenes/Visual/Kelas 3/V3_SP_PersegiPanjang.unity
   isLoaded: 1
   isActive: 1

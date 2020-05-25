@@ -677,7 +677,6 @@ GameObject:
   - component: {fileID: 154564104}
   - component: {fileID: 154564103}
   - component: {fileID: 154564102}
-  - component: {fileID: 154564101}
   m_Layer: 0
   m_Name: Persegi1_2
   m_TagString: Untagged
@@ -699,32 +698,6 @@ Transform:
   m_Father: {fileID: 1596172260}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &154564101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154564099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0e48683bef65a4eb7ede2bcd135c50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSisi3: 8
-  timeChangeSudut0: 12
-  timeChangeSudut1: 14
-  timeChangeSudut2: 16
-  timeChangeSudut3: 18
-  timeEndSisi: 10
-  timeEndSudut: 20
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!65 &154564102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1414,7 +1387,6 @@ GameObject:
   - component: {fileID: 531143601}
   - component: {fileID: 531143600}
   - component: {fileID: 531143599}
-  - component: {fileID: 531143598}
   m_Layer: 0
   m_Name: Persegi0_2
   m_TagString: Untagged
@@ -1436,32 +1408,6 @@ Transform:
   m_Father: {fileID: 1535191882}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &531143598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531143596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0e48683bef65a4eb7ede2bcd135c50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSisi3: 8
-  timeChangeSudut0: 12
-  timeChangeSudut1: 14
-  timeChangeSudut2: 16
-  timeChangeSudut3: 18
-  timeEndSisi: 10
-  timeEndSudut: 20
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!65 &531143599
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2237,7 +2183,6 @@ GameObject:
   - component: {fileID: 752183308}
   - component: {fileID: 752183307}
   - component: {fileID: 752183306}
-  - component: {fileID: 752183305}
   m_Layer: 0
   m_Name: Persegi1_1
   m_TagString: Untagged
@@ -2259,32 +2204,6 @@ Transform:
   m_Father: {fileID: 1100640180}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!114 &752183305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752183303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0e48683bef65a4eb7ede2bcd135c50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSisi3: 8
-  timeChangeSudut0: 12
-  timeChangeSudut1: 14
-  timeChangeSudut2: 16
-  timeChangeSudut3: 18
-  timeEndSisi: 10
-  timeEndSudut: 20
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!65 &752183306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4236,7 +4155,6 @@ GameObject:
   - component: {fileID: 1432481875}
   - component: {fileID: 1432481874}
   - component: {fileID: 1432481873}
-  - component: {fileID: 1432481872}
   m_Layer: 0
   m_Name: Persegi0_1
   m_TagString: Untagged
@@ -4258,32 +4176,6 @@ Transform:
   m_Father: {fileID: 2129272987}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1432481872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432481870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0e48683bef65a4eb7ede2bcd135c50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNow: 0
-  timeChangeSisi0: 2
-  timeChangeSisi1: 4
-  timeChangeSisi2: 6
-  timeChangeSisi3: 8
-  timeChangeSudut0: 12
-  timeChangeSudut1: 14
-  timeChangeSudut2: 16
-  timeChangeSudut3: 18
-  timeEndSisi: 10
-  timeEndSudut: 20
-  Axis: {x: 0, y: 0, z: 0}
-  Space: 0
-  Degrees: 0
 --- !u!65 &1432481873
 BoxCollider:
   m_ObjectHideFlags: 0
