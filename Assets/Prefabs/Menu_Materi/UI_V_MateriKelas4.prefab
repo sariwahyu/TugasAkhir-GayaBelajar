@@ -187,11 +187,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V_Luas
       objectReference: {fileID: 0}
-    - target: {fileID: 1125043260048144267, guid: 7b1fd089cd050854dabf731479d08760,
-        type: 3}
-      propertyPath: m_Text
-      value: Luas Bangun Datar
-      objectReference: {fileID: 0}
     - target: {fileID: 1125043260365939882, guid: 7b1fd089cd050854dabf731479d08760,
         type: 3}
       propertyPath: m_Text
@@ -206,7 +201,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6554227560168824796}
     - target: {fileID: 1125043260413261985, guid: 7b1fd089cd050854dabf731479d08760,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -215,7 +210,12 @@ PrefabInstance:
     - target: {fileID: 1125043260413261985, guid: 7b1fd089cd050854dabf731479d08760,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V_MateriKelas4
+      value: KelasVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 1125043260048144267, guid: 7b1fd089cd050854dabf731479d08760,
+        type: 3}
+      propertyPath: m_Text
+      value: Luas Bangun Datar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b1fd089cd050854dabf731479d08760, type: 3}

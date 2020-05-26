@@ -2748,7 +2748,7 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1001 &2092002319
+--- !u!1001 &2077323620
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2969,26 +2969,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 106342525617524702, guid: 6b696567842188440a181fbd8c8f739c,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1359998168}
-    - target: {fileID: 106342525617524702, guid: 6b696567842188440a181fbd8c8f739c,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BuildNewTarget
-      objectReference: {fileID: 0}
-    - target: {fileID: 106342525161752565, guid: 6b696567842188440a181fbd8c8f739c,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.14996338
-      objectReference: {fileID: 0}
-    - target: {fileID: 106342525623755158, guid: 6b696567842188440a181fbd8c8f739c,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V2_Segitiga
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b696567842188440a181fbd8c8f739c, type: 3}

@@ -25,7 +25,7 @@ namespace Lean.Touch
         public float DegreeLimit4 = 360.0f;
         public float DegreeSpeed = -1.0f;
 
-        public Vector3 Axis = Vector3.down;
+        public Vector3 Axis = Vector3.forward;
         public Space Space = Space.Self;
 
         void Update()
@@ -63,6 +63,9 @@ namespace Lean.Touch
             if (DegreeNow == DegreeLimit1)
             {
                 Putaran0.gameObject.SetActive(true);
+                Putaran1.gameObject.SetActive(false);
+                Putaran2.gameObject.SetActive(false);
+                Putaran3.gameObject.SetActive(false);
                 timeLimit = timeLimitStatic;
                 DegreeNow += 1;
 
@@ -70,6 +73,9 @@ namespace Lean.Touch
             if (DegreeNow == DegreeLimit2)
             {
                 Putaran1.gameObject.SetActive(true);
+                Putaran0.gameObject.SetActive(false);
+                Putaran2.gameObject.SetActive(false);
+                Putaran3.gameObject.SetActive(false);
                 timeLimit = timeLimitStatic;
                 DegreeNow += 1;
                 transform.Rotate(Axis, DegreeSpeed, Space);
@@ -77,6 +83,9 @@ namespace Lean.Touch
             if (DegreeNow == DegreeLimit3)
             {
                 Putaran2.gameObject.SetActive(true);
+                Putaran0.gameObject.SetActive(false);
+                Putaran1.gameObject.SetActive(false);
+                Putaran3.gameObject.SetActive(false);
                 timeLimit = timeLimitStatic;
                 DegreeNow += 1;
                 transform.Rotate(Axis, DegreeSpeed, Space);
@@ -84,6 +93,9 @@ namespace Lean.Touch
             if (DegreeNow == DegreeLimit4 && DegreeLimit4 != 0)
             {
                 Putaran3.gameObject.SetActive(true);
+                Putaran0.gameObject.SetActive(false);
+                Putaran1.gameObject.SetActive(false);
+                Putaran2.gameObject.SetActive(false);
                 timeLimit = timeLimitStatic;
                 DegreeNow += 1;
                 transform.Rotate(Axis, DegreeSpeed, Space);

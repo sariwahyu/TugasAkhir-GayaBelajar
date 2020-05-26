@@ -67,12 +67,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -147,62 +147,62 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -231,7 +231,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 5831543652508901406}
+      objectReference: {fileID: 8956611424964414852}
     - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -247,33 +247,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V2_Persegi
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_NamaBangunDatar
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242381076766481, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Ciri-Ciri Bangun Datar
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V_NamaBangunDatar
+      propertyPath: m_Text
+      value: "Persegi Panjang memiliki 2 pasang sisi berupa garis lurus yang masing
+        \u2013 masing sama panjang dan sejajar dengan pasangannya.\nSisi Persegi Panjang:
+        AB, BC, CD, AD.\n\nPersegi Panjang memiliki 4 buah sudut yang sama besar.\nSudut
+        Persegi Panjang : A, B, C, D."
       objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259963, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Persegi Panjang
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_Text
-      value: "Persegi panjang merupakan bangun datar yang dibentuk oleh dua pasang
-        sisi berupa garis lurus yang masing \u2013 masing sama panjang dan sejajar
-        dengan pasangannya, dan memiliki empat buah sudut yang sama besar."
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ed63f333e071a40a4cf62c96486586, type: 3}
---- !u!114 &5831543652508901406 stripped
+--- !u!114 &8956611424964414852 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7173936170686508672, guid: b7ed63f333e071a40a4cf62c96486586,
+  m_CorrespondingSourceObject: {fileID: 5705911594615554842, guid: b7ed63f333e071a40a4cf62c96486586,
     type: 3}
   m_PrefabInstance: {fileID: 3702872580292759198}
   m_PrefabAsset: {fileID: 0}

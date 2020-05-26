@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Visual/Kelas 1/V1_Bola.unity
     guid: 85ec0c43ee0501b4b8df64cc72fd9c16
   - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 2/V_MateriKelas2.unity
+    guid: 1d995354c76f0e84d9a1d0cd9f39fb81
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V_NamaBangunDatar.unity
     guid: 51e18125bb137df478c4ff1c731cff87
   - enabled: 0
@@ -47,13 +50,85 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_Segitiga.unity
     guid: e2b260a0f5b1a6d458aea68435eb6d54
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V_NamaBangunRuang.unity
     guid: b6c12f36bbf53104ba3068f2bf6c3eb5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
     guid: e0c3bf0064598f8459c384d15702e70a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual/Kelas 2/V2_Balok.unity
     guid: f30770c0d5b24be48aec397e99c89b10
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 2/V2_Limas.unity
+    guid: 2f11a1d4b96b58c43aedd1c454aa7beb
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 2/V2_Prisma.unity
+    guid: 65d4ca826cd5510498eacb72deb3fff9
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V_MateriKelas3.unity
+    guid: 0a75cc665c2e1314e851366a1557d8e4
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V_Pencerminan.unity
+    guid: 706660f97221a9842b28af218228c405
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_P_Persegi.unity
+    guid: 787e99f07867b9d44b69c0d5cecb7c84
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_P_PersegiPanjang.unity
+    guid: 67427bdc76427d3448f46bbeb55c5247
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_P_SegitigaSamaSisi.unity
+    guid: 9d4586fb1cf331c4b91dd7dfb7845d0d
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V_SimetriLipat.unity
+    guid: f8c23ba9cfb09554f9251fcc61f8b021
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SL_PersegiPanjang.unity
+    guid: 18f9d7d1dcd97bf40960ac477392fa73
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SL_Persegi.unity
+    guid: 6b32bf7280d21af4fbc3b1132ec0cbc1
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SL_SegitigaSamaSisi.unity
+    guid: 3fe67ae52488ab643bb371f157e39d1d
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V_SimetriPutar.unity
+    guid: a6be9881638314841add8cac5d8a5fc4
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SP_PersegiPanjang.unity
+    guid: 10c749bd2474ab043aa859207916f832
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SP_Persegi.unity
+    guid: 0675351eeacc3b040b4672c4869de60c
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 3/V3_SP_SegitigaSamaSisi.unity
+    guid: 91aa59a14233bdf4fbadaf39abb435eb
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V_MateriKelas4.unity
+    guid: a8fbbf45cf38e5f4d8b1fdccc444107c
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V_Keliling.unity
+    guid: fee157154f92138459093e145275125d
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V4_K_Persegi.unity
+    guid: edb1f92f871da0a498a2bcd3859f0011
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V4_K_PersegiPanjang.unity
+    guid: 9a71db6f4a7eb0a4bbee82578f14df6b
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V4_K_Segitiga.unity
+    guid: f01c3390e7bd7a5448444af383e45e9f
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V_Luas.unity
+    guid: c87a94bda1c25ae4ea7dce0120b7332b
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V4_L_Persegi.unity
+    guid: 55d799f30e3c2c6469f472374dfbff87
+  - enabled: 0
+    path: Assets/Scenes/Visual/Kelas 4/V4_L_PersegiPanjang.unity
+    guid: c6bb30d66eb6b8143b4869388345ca35
+  - enabled: 1
+    path: Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
+    guid: 0285220588cc9474bb3d4417af675493
   m_configObjects: {}

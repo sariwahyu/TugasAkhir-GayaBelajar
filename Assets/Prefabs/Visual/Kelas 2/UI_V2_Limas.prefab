@@ -67,12 +67,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -142,6 +142,36 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -177,51 +207,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 61767617415888085}
+      objectReference: {fileID: 3205148958665838927}
     - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -237,6 +227,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V2_Prisma
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259965, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -247,35 +247,34 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_NamaBangunRuang
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242381076766481, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Ciri-Ciri Bangun Ruang
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V_NamaBangunRuang
+      propertyPath: m_Text
+      value: "Limas terdiri dari sisi alas dengan berbagai bentuk bangun datar, serta
+        sisi tegak yang berbentuk segitiga. \n\nLimas antara lain yaitu memiliki titik
+        puncak.\n\nJumlah sisi, rusuk dan titik sudut limas bergantung pada bentuk
+        alasnya. "
       objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259963, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Limas
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_Text
-      value: "Limas merupakan bangun ruang yang dibentuk oleh sisi alas dengan berbagai
-        bentuk bangun datar, seperti lingkaran, segitiga, segiempat, dan sebagainya,
-        serta sisi tegak yang berbentuk segitiga. Sifat \u2013 sifat lain dari limas
-        antara lain yaitu memiliki titik puncak dan memiliki banyak sisi, rusuk dan
-        titik sudut yang bergantung pada bentuk alasnya. "
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ed63f333e071a40a4cf62c96486586, type: 3}
---- !u!114 &61767617415888085 stripped
+--- !u!114 &3205148958665838927 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7173936170686508672, guid: b7ed63f333e071a40a4cf62c96486586,
+  m_CorrespondingSourceObject: {fileID: 5705911594615554842, guid: b7ed63f333e071a40a4cf62c96486586,
     type: 3}
   m_PrefabInstance: {fileID: 7157769716527419989}
   m_PrefabAsset: {fileID: 0}

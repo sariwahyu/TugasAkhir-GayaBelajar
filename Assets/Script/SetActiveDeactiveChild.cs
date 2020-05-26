@@ -17,14 +17,9 @@ namespace Lean.Touch
         [Tooltip("Duraton time looping for each part")]
         public float timeEnd = 50.0f;
 
-        public Vector3 Axis = Vector3.down;
-        public Space Space = Space.Self;
-        public float Degrees = -1.0f;
-
         void Update()
         {
             timeNow += Time.deltaTime;
-            transform.Rotate(Axis, Degrees, Space);
 
             if (timeNow > timeChange0)
             {

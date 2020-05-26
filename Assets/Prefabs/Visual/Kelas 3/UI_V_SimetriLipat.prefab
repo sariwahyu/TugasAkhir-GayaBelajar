@@ -117,65 +117,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897398, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 3.9509277
-      objectReference: {fileID: 0}
     - target: {fileID: 1756795293098850818, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 15.382019
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Name
-      value: SegitigaSamaSisi
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 372.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -35.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293097897398, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 375
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -32.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 8.9
+      value: 3.9509277
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -207,40 +157,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Persegi
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      propertyPath: m_AnchoredPosition.x
+      value: 0.6
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      propertyPath: m_SizeDelta.x
+      value: 375
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      propertyPath: m_SizeDelta.y
+      value: -32.2
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 3018474503180567114}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneLoaderString
+      propertyPath: m_AnchoredPosition.y
+      value: 8.9
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      propertyPath: m_SizeDelta.x
+      value: 372.6
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V3_SL_SegitigaSamaSisi
+      propertyPath: m_SizeDelta.y
+      value: -35.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Name
+      value: SegitigaSamaSisi
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -292,11 +257,56 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V3_SL_Persegi
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3018474503180567114}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V3_SL_SegitigaSamaSisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292369526853, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Segitiga Sama Sisi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Persegi Panjang
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3018474503180567114}
     - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -307,25 +317,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V_MateriKelas3
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Text
-      value: Persegi
-      objectReference: {fileID: 0}
     - target: {fileID: 1756795293492571743, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
       value: Simetri Lipat
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
-      value: Persegi Panjang
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292369526853, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Text
-      value: Segitiga Sama Sisi
+      value: Persegi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ae7d9c2c92d8243b86a539ac5f0c54, type: 3}

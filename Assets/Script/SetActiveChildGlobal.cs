@@ -19,13 +19,9 @@ namespace Lean.Touch
         [Tooltip("Duration time looping for each part")]
         public float timeEnd = 20.0f;
 
-        public Vector3 Axis = Vector3.down;
-        public Space Space = Space.World;
-        public float Degrees = -1.0f;
         void Update()
         {
             timeNow += Time.deltaTime;
-            transform.Rotate(Axis, Degrees, Space);
 
             if (timeNow > timeChange0 && timeChange0 != 0)
             {

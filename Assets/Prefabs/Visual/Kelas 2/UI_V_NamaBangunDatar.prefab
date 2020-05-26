@@ -127,25 +127,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 3.9508667
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 373.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -32.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 9.1
+      propertyPath: m_Name
+      value: PersegiPanjang
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292369526850, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -167,30 +152,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 6.2
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Name
-      value: PersegiPanjang
-      objectReference: {fileID: 0}
     - target: {fileID: 1756795292579569715, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Name
       value: Persegi
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_Name
-      value: SegitigaSamaKaki
+      propertyPath: m_AnchoredPosition.x
+      value: -0.7
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_SizeDelta.x
+      value: 373.3
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_Name
-      value: Segitiga
+      propertyPath: m_SizeDelta.y
+      value: -32.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 9.1
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -232,25 +217,140 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 6.8
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_Text
-      value: Persegi Panjang
+      propertyPath: m_Name
+      value: SegitigaSamaKaki
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Name
+      value: Segitiga
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3560437248539571252}
+    - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V2_PersegiPanjang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3560437248539571252}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V2_Persegi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3560437248539571252}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V2_Segitiga
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292369526853, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
       value: Segitiga
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
-      value: Persegi
+      value: Persegi Panjang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3560437248539571252}
+    - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_MateriKelas2
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293492571743, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
       value: Ciri-Ciri Bangun Datar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Persegi
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293165085797, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -259,3 +359,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ae7d9c2c92d8243b86a539ac5f0c54, type: 3}
+--- !u!114 &3560437248539571252 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8078098631224073761, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    type: 3}
+  m_PrefabInstance: {fileID: 4715863884201404949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebe01d888f2904ca7148d7a213f2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -67,12 +67,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -142,36 +142,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -202,12 +172,32 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -216,7 +206,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8066956625024778220}
+      objectReference: {fileID: 4850973705831600758}
     - target: {fileID: 2563242381026577687, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -232,6 +222,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V2_Kubus
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2563242381076766483, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259965, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -246,7 +246,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8066956625024778220}
+      objectReference: {fileID: 4850973705831600758}
     - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -262,35 +262,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V2_Prisma
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_NamaBangunRuang
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242381076766481, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Ciri-Ciri Bangun Ruang
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: V_NamaBangunRuang
+      propertyPath: m_Text
+      value: "Balok memiliki 6 sisi.\nSisi Balok: ABCD, ABEF, BCFG, EFGH, ADEH, CDGH\n\nBalok
+        memiliki 12 rusuk.\nRusuk Balok :AD, AB, DC, BC, BF, CG, FG, EF, HG, EH, AE,
+        DH.\n\nBalok memiliki 8 titik sudut. \nSudut Balok : A, B, C, D, E, F, G,
+        H."
       objectReference: {fileID: 0}
     - target: {fileID: 2563242379984259963, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
       value: Balok
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Balok berbeda dengan kubus. Hal yang membedakan balok dengan kubus yaitu
-        balok memiliki sisi yang berhadapan memiliki bentuk serta ukuran yang sama.
-        Sifat- sifat lain dari bangun balok antara lain yaitu memiliki duabelas rusuk
-        yang mana rusuk-rusuk yang sejajar sama panjang, serta memiliki delapan titik
-        sudut. '
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ed63f333e071a40a4cf62c96486586, type: 3}
---- !u!114 &8066956625024778220 stripped
+--- !u!114 &4850973705831600758 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7173936170686508672, guid: b7ed63f333e071a40a4cf62c96486586,
+  m_CorrespondingSourceObject: {fileID: 5705911594615554842, guid: b7ed63f333e071a40a4cf62c96486586,
     type: 3}
   m_PrefabInstance: {fileID: 899988472982245740}
   m_PrefabAsset: {fileID: 0}

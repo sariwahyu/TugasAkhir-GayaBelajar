@@ -67,12 +67,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379392333651, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379976241442, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
@@ -147,62 +147,62 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242379720507246, guid: b7ed63f333e071a40a4cf62c96486586,
+    - target: {fileID: 2563242380307026743, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
@@ -231,7 +231,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 4946583272667506864}
+      objectReference: {fileID: 7495190353510909226}
     - target: {fileID: 2563242380036859611, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -247,28 +247,29 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V2_Balok
       objectReference: {fileID: 0}
-    - target: {fileID: 2563242381076766481, guid: b7ed63f333e071a40a4cf62c96486586,
-        type: 3}
-      propertyPath: m_Text
-      value: Ciri-Ciri Bangun Ruang
-      objectReference: {fileID: 0}
     - target: {fileID: 2563242380650578362, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V_NamaBangunRuang
       objectReference: {fileID: 0}
+    - target: {fileID: 2563242381076766481, guid: b7ed63f333e071a40a4cf62c96486586,
+        type: 3}
+      propertyPath: m_Text
+      value: Ciri-Ciri Bangun Ruang
+      objectReference: {fileID: 0}
     - target: {fileID: 2563242379440570551, guid: b7ed63f333e071a40a4cf62c96486586,
         type: 3}
       propertyPath: m_Text
-      value: "Kubus juga dikenal dengan nama lain yaitu bidang enam beraturan. \n\nSifat-
-        sifat dari bangun kubus antara lain yaitu memiliki enam sisi yang sama luas,
-        memiliki duabelas rusuk yang sama panjang, serta memiliki delapan titik sudut."
+      value: "Kubus memiliki 6 sisi.\nSisi Balok: ABCD, ABEF, BCFG, EFGH, ADEH, CDGH\n\nKubus
+        memiliki 12 rusuk.\nRusuk Balok :AD, AB, DC, BC, BF, CG, FG, EF, HG, EH, AE,
+        DH.\n\nKubus memiliki 8 titik sudut. \nSudut Balok : A, B, C, D, E, F, G,
+        H."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7ed63f333e071a40a4cf62c96486586, type: 3}
---- !u!114 &4946583272667506864 stripped
+--- !u!114 &7495190353510909226 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7173936170686508672, guid: b7ed63f333e071a40a4cf62c96486586,
+  m_CorrespondingSourceObject: {fileID: 5705911594615554842, guid: b7ed63f333e071a40a4cf62c96486586,
     type: 3}
   m_PrefabInstance: {fileID: 2822415250322884144}
   m_PrefabAsset: {fileID: 0}

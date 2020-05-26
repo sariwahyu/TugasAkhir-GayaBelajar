@@ -840,8 +840,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099812652}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.6883, z: 0.4}
-  m_LocalScale: {x: 40, y: 44.868004, z: 40}
+  m_LocalPosition: {x: 0, y: 0.591, z: 0.4}
+  m_LocalScale: {x: 33.41279, y: 37.479126, z: 33.41279}
   m_Children:
   - {fileID: 1487761535}
   - {fileID: 1457290752}
@@ -872,9 +872,6 @@ MonoBehaviour:
   timeChange3: 12
   timeChange4: 0
   timeEnd: 20
-  Axis: {x: 0, y: -1, z: 0}
-  Space: 0
-  Degrees: -1
 --- !u!23 &1099812655
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -930,7 +927,7 @@ PrefabInstance:
     - target: {fileID: 2870858912018491112, guid: dc8717975e8ff05448cc87658a6ace02,
         type: 3}
       propertyPath: m_Name
-      value: UI_V4_L_SegitigaSamaSisi
+      value: UI_V4_L_Segitiga
       objectReference: {fileID: 0}
     - target: {fileID: 2870858912018491113, guid: dc8717975e8ff05448cc87658a6ace02,
         type: 3}
@@ -1463,8 +1460,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572393926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.22269994, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.25, z: 0.01}
+  m_LocalPosition: {x: 0, y: 0.2022, z: 0.0659}
+  m_LocalScale: {x: 0.5847238, y: 0.20882992, z: 0.008353196}
   m_Children:
   - {fileID: 526147347}
   m_Father: {fileID: 2026306251}

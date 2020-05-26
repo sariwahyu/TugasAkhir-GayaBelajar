@@ -202,6 +202,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7042431550781594729, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
       propertyPath: m_IsActive
@@ -212,25 +232,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V1_Tabung
       objectReference: {fileID: 0}
-    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+    - target: {fileID: 7042431549758060451, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 524071256192433776}
+    - target: {fileID: 7042431549758060451, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
       objectReference: {fileID: 0}
     - target: {fileID: 7042431550729073103, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
@@ -246,3 +256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edda1e41d61a7d14781f53b04e787b0b, type: 3}
+--- !u!114 &524071256192433776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 938632386714941870, guid: edda1e41d61a7d14781f53b04e787b0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 739524001000687582}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8ebe01d888f2904ca7148d7a213f2be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

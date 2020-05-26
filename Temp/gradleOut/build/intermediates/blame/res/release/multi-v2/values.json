@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\[BAMS]\\sekolah\\kuliah\\materi\\TAUN 4\\TugasAkhir-GayaBelajar\\Temp\\gradleOut\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\[BAMS]\\sekolah\\kuliah\\materi\\TAUN 4\\TugasAkhir-GayaBelajar\\Temp\\gradleOut\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "9,11,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "551,651,789",
+                        "endLines": "10,13,17",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "646,784,1011"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sari W\\.gradle\\caches\\transforms-2\\files-2.1\\10c6ae086e677bd4062624747fe8ccf0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,106,161,266,371",
+                        "endColumns": "50,54,104,104,66",
+                        "endOffsets": "101,156,261,366,433"
+                    }
+                },
+                {
+                    "source": "D:\\[BAMS]\\sekolah\\kuliah\\materi\\TAUN 4\\TugasAkhir-GayaBelajar\\Temp\\gradleOut\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "42,-1",
+                        "endOffsets": "95,-1"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "438,483",
+                        "endColumns": "44,67",
+                        "endOffsets": "478,546"
+                    }
+                }
+            ]
+        }
+    ]
+}

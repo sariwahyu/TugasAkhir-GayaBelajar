@@ -1,10 +1,8 @@
 Android
 PlayerPath?
-D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/test.apk
+D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/Test_Visual.apk
 SceneListBegin?
-Assets/Scenes/Visual/Kelas 2/V_NamaBangunRuang.unity
-Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
-Assets/Scenes/Visual/Kelas 2/V2_Balok.unity
+Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -22,6 +20,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+28bb33dc4fa56ae59a8cf266ce865179 Assembly-CSharp.dll:Lean.Touch.RotasiSimetriPutar
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -118,6 +117,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 3d2532a381856470592980feeb41f060 Assembly-CSharp.dll:.SceneOrientation
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultInitializationErrorHandler
+10b9b0bfbfc2827dafd9c9b24e6f02a4 Assembly-CSharp.dll:Lean.Touch.SetActiveChildLimasSegiEmpat
 906368757786169410efa8bbfdcaaf2f Assembly-CSharp.dll:.VuMarkHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MessageBox
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
@@ -194,6 +194,8 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+8cf83f86a98f3959960cb2a582830232 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiEmpat
+8027024efc6a2692a2023d5ccd60c3cb Assembly-CSharp.dll:Lean.Touch.SetActiveDeactiveChild
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CloudRecoScanLine
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 0d98521afeeb0d88cac4140c44268bfe Assembly-CSharp.dll:.AboutManager
@@ -201,6 +203,7 @@ b35c35967bb6949fc094bfec5960c675 Assembly-CSharp.dll:.OptionsConfig
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.HyperlinkHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
+01fcc7f57867df5301de76f18a6622d5 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiTiga
 a5db3903435dbc695a76ee64f8ff9200 Assembly-CSharp.dll:.MultiTargetTrackableEventHandler
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -275,6 +278,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 5deb05d50bbaea852849b56df66bb301 Assembly-CSharp.dll:.SafeAreaManager
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+6d2427934452bbb644b220155ca9bc17 Assembly-CSharp.dll:Lean.taouch.RotasiSimetriLipat
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f8b139fcde9fda6214245df246415cc7 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.BackgroundPlaneBehaviour
@@ -342,4 +346,4 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-8cf83f86a98f3959960cb2a582830232 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiEmpat
+9c9e3aefb1a38429818a8565db877670 Assembly-CSharp.dll:Lean.Touch.SetActiveChildGlobal
