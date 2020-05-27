@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 247148678}
   - component: {fileID: 247148677}
   m_Layer: 0
-  m_Name: SudutD
+  m_Name: SudutC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,7 +509,7 @@ Transform:
   m_Children:
   - {fileID: 629370526}
   m_Father: {fileID: 563503669}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &247148677
 BoxCollider:
@@ -1027,8 +1027,8 @@ Transform:
   - {fileID: 868320867}
   - {fileID: 1757709906}
   - {fileID: 385688205}
-  - {fileID: 1962738152}
   - {fileID: 247148676}
+  - {fileID: 1962738152}
   - {fileID: 1142247073}
   - {fileID: 2094640211}
   - {fileID: 1558597135}
@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 629370528}
   - component: {fileID: 629370527}
   m_Layer: 0
-  m_Name: D
+  m_Name: C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1242,7 +1242,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629370525}
-  m_Text: Sudut D
+  m_Text: Sudut C
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2132,6 +2132,16 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1220837938625086989, guid: ba309a64749d3f544a37d9b35a435799,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1667366136}
+    - target: {fileID: 1220837938625086989, guid: ba309a64749d3f544a37d9b35a435799,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuildNewTarget
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba309a64749d3f544a37d9b35a435799, type: 3}
 --- !u!1 &1558597134
@@ -2402,7 +2412,7 @@ GameObject:
   - component: {fileID: 1811669859}
   - component: {fileID: 1811669858}
   m_Layer: 0
-  m_Name: C
+  m_Name: D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2430,7 +2440,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811669856}
-  m_Text: Sudut C
+  m_Text: Sudut D
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2494,7 +2504,7 @@ GameObject:
   - component: {fileID: 1962738154}
   - component: {fileID: 1962738153}
   m_Layer: 0
-  m_Name: SudutC
+  m_Name: SudutD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2513,7 +2523,7 @@ Transform:
   m_Children:
   - {fileID: 1811669857}
   m_Father: {fileID: 563503669}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1962738153
 BoxCollider:

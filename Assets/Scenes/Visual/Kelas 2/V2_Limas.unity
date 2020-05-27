@@ -4207,6 +4207,16 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4667971114026769094, guid: 0b87df68978c4224c9972cad900824fd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1148087993}
+    - target: {fileID: 4667971114026769094, guid: 0b87df68978c4224c9972cad900824fd,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuildNewTarget
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b87df68978c4224c9972cad900824fd, type: 3}
 --- !u!1 &1457974177

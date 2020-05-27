@@ -3068,9 +3068,9 @@ MonoBehaviour:
   timeNow: 0
   timeChange0: 0
   timeChange1: 12.5
-  timeChange2: 25
-  timeChange3: 37.5
-  timeEnd: 50
+  timeChange2: 0
+  timeChange3: 0
+  timeEnd: 25
 --- !u!1001 &1686338409
 PrefabInstance:
   m_ObjectHideFlags: 0
