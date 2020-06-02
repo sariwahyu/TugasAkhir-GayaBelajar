@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class AudioPlayer : MonoBehaviour
 {
     int audioNow= 0;
-    AudioSource audioSource;
+    public AudioSource audioSource;
     public AudioClip[] clipNames;
     public Text audioName;
     public Slider audioLenght;
@@ -23,19 +23,19 @@ public class AudioPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!stop)
-        {
-            audioLenght.value += Time.deltaTime;
-            if(audioLenght.value >= audioSource.clip.length)
-            {
-                audioNow++;
-                if(audioNow >= clipNames.Length)
-                {
-                    audioNow = 0;
-                }
-                StartAudio();
-            }
-        }
+        //if (!stop)
+        //{
+        //    audioLenght.value += Time.deltaTime;
+        //    if(audioLenght.value >= audioSource.clip.length)
+        //    {
+        //        audioNow++;
+        //        if(audioNow >= clipNames.Length)
+        //        {
+        //            audioNow = 0;
+        //        }
+        //        StartAudio();
+        //    }
+        //}
     }
 
     public void StartAudio(int changeAudio = 0)
