@@ -11,36 +11,43 @@ public class AudioPlayer : MonoBehaviour
     public AudioClip[] clipNames;
     public Text audioName;
     public Slider audioLenght;
-    private bool stop = false;
+    public GameObject playButton;
+    public GameObject pauseButton;
+    private bool stop = true;
 
     // Start is called before the first frame update
     void Start()
     {
+        playButton.SetActive(true);
+        pauseButton.SetActive(false);
         audioSource = GetComponent<AudioSource>();
-        StartAudio();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (!stop)
-        //{
-        //    audioLenght.value += Time.deltaTime;
-        //    if(audioLenght.value >= audioSource.clip.length)
-        //    {
-        //        audioNow++;
-        //        if(audioNow >= clipNames.Length)
-        //        {
-        //            audioNow = 0;
-        //        }
-        //        StartAudio();
-        //    }
-        //}
+        if (!stop)
+        {
+            audioLenght.value += Time.deltaTime;
+            if (audioLenght.value >= audioSource.clip.length)
+            {
+                audioNow++;
+                if (audioNow >= clipNames.Length)
+                {
+                    audioNow = 0;
+                }
+                StartAudio();
+            }
+        }
     }
 
     public void StartAudio(int changeAudio = 0)
     {
         audioNow += changeAudio;
+        playButton.SetActive (false);
+        pauseButton.SetActive(true);
+
         if (audioNow >= clipNames.Length)
         {
             audioNow = 0;
@@ -68,5 +75,13 @@ public class AudioPlayer : MonoBehaviour
     {
         audioSource.Stop();
         stop = true;
+    }
+
+    public void PauseAudio()
+    {
+        audioSource.Pause();
+        pauseButton.SetActive(false);
+        playButton.SetActive(true);
+
     }
 }
