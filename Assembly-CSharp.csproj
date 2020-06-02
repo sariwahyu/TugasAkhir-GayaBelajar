@@ -96,6 +96,7 @@
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\PanelShowHide.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkHandler.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkTrackableEventHandler.cs" />
+    <Compile Include="Assets\Script\AudioPlayer.cs" />
     <Compile Include="Assets\Script\LoadIndex.cs" />
     <Compile Include="Assets\Script\RotasiSimetriLipat.cs" />
     <Compile Include="Assets\Script\RotasiSimetriPutar.cs" />
