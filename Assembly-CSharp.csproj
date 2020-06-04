@@ -107,6 +107,7 @@
     <Compile Include="Assets\Script\SetActiveChildSegiEmpat.cs" />
     <Compile Include="Assets\Script\SetActiveChildSegiTiga.cs" />
     <Compile Include="Assets\Script\SetActiveDeactiveChild.cs" />
+    <Compile Include="Assets\Script\UI_AudioPlayer.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

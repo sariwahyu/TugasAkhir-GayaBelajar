@@ -272,7 +272,7 @@ badf7893350f100272d1ce098e5e3562 Assembly-CSharp.dll:.LookAtObject
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 a4eacf27427895be6b0448fa1d76e436 Assembly-CSharp.dll:.PanelShowHide
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadIndex
-85191827d234844d821a5880477c66be Assembly-CSharp.dll:.AudioPlayer
+c436de08ad61e8e165fdb7e73e8bd36e Assembly-CSharp.dll:.AudioPlayer
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 6f3f834630b8c842f18320156d98e63a Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
 3b500485fe7613bb94849043a2980d62 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiTiga
