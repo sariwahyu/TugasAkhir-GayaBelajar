@@ -6,68 +6,98 @@ using UnityEngine.UI;
 
 public class AudioPlayer : MonoBehaviour
 {
-    public int audioNow= 0;
+    public static int audioNow = 0;
     public AudioSource audioSource;
     public AudioClip[] clipNames;
     public Text audioName;
     public Slider audioLenght;
-    public GameObject playButton;
-    public GameObject pauseButton;
-    private bool stop = true;
-
-    // Start is called before the first frame update
+    public static float audioValue;
+    public static float audioMax;
     void Start()
     {
-        playButton.SetActive(true);
-        pauseButton.SetActive(false);
         audioSource = GetComponent<AudioSource>();
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!stop)
+        audioValue = audioLenght.value;
+        audioMax = audioLenght.maxValue;
+        audioLenght.maxValue = clipNames[audioNow].length;
+        audioLenght.value = audioSource.time;
+        if (audioLenght.value == audioLenght.maxValue && audioNow <= clipNames.Length)
         {
-            audioLenght.value += Time.deltaTime;
-            if (audioLenght.value >= audioSource.clip.length)
-            {
-                audioNow++;
-                if (audioNow >= clipNames.Length)
-                {
-                    StartAudio();
-
-                }
-            }
+            audioNow++;
+            StartAudio(audioNow);
         }
-    }
+        else if (audioLenght.value == audioLenght.maxValue && audioNow >= clipNames.Length)
 
-    public void StartAudio(int changeAudio = 0)
-    {
-        audioNow += changeAudio;
-        playButton.SetActive (false);
-        pauseButton.SetActive(true);
 
-        if (audioNow >= clipNames.Length)
+
         {
             audioNow = 0;
+            StopAudio();
+
         }
-        else if (audioNow < 0)
-        {
-            audioNow = clipNames.Length - 1;
-        }
+        //if (!stop)
+        //{
+        //audioLenght.value += Time.deltaTime;
+        //if (audioLenght.value >= audioSource.clip.length)
+        //{
+        //audioNow++;
+        //if (audioNow >= clipNames.Length)
+        //{
+        //  StartAudio();
+
+        //}
+        //}
+        //}
+    }
+
+    public void StartAudio(int changeAudio)
+    {
+        audioNow = changeAudio;
         audioSource.clip = clipNames[audioNow];
         audioName.text = audioSource.clip.name;
         audioLenght.maxValue = audioSource.clip.length;
         audioLenght.value = 0;
         audioSource.Play();
+
+
+    }
+
+    public void NextAudio()
+    {
+        if (audioNow == clipNames.Length-1)
+        {
+            audioNow = 0;
+        }
+        else audioNow++;
+        audioSource.clip = clipNames[audioNow];
+        StartAudio(audioNow);
+
+    }
+
+    public void PrevAudio()
+    {
+        if (audioNow == 0)
+        {
+            audioNow = clipNames.Length - 1;
+        }
+        else audioNow--;
+        audioSource.clip = clipNames[audioNow];
+        StartAudio(audioNow);
+
     }
 
     public void PauseAudio()
     {
         audioSource.Pause();
-        pauseButton.SetActive(false);
-        playButton.SetActive(true);
+    }
 
+    public void StopAudio()
+    {
+        audioSource.Stop();
     }
 }

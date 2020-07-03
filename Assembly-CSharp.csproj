@@ -97,6 +97,7 @@
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkHandler.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkTrackableEventHandler.cs" />
     <Compile Include="Assets\Script\AudioPlayer.cs" />
+    <Compile Include="Assets\Script\AudioPlayerUI.cs" />
     <Compile Include="Assets\Script\LoadIndex.cs" />
     <Compile Include="Assets\Script\RotasiSimetriLipat.cs" />
     <Compile Include="Assets\Script\RotasiSimetriPutar.cs" />
@@ -107,7 +108,6 @@
     <Compile Include="Assets\Script\SetActiveChildSegiEmpat.cs" />
     <Compile Include="Assets\Script\SetActiveChildSegiTiga.cs" />
     <Compile Include="Assets\Script\SetActiveDeactiveChild.cs" />
-    <Compile Include="Assets\Script\UI_AudioPlayer.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />

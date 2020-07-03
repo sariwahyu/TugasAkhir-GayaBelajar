@@ -131,7 +131,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
     guid: 0285220588cc9474bb3d4417af675493
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Auditori/Kelas 1/A_MateriKelas1.unity
     guid: 4bd93dd7b34ada649bbbd87f4aa2520e
   - enabled: 1
