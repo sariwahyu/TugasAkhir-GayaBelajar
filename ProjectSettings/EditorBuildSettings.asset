@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GayaBelajar.unity
     guid: 508ac211db96b0d42a38b785d9901ae3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KelasAuditori.unity
     guid: c35c35b28418f7f47beb605b0d39b488
   - enabled: 0
@@ -131,13 +131,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
     guid: 0285220588cc9474bb3d4417af675493
-  - enabled: 0
-    path: Assets/Scenes/Auditori/Kelas 1/A_MateriKelas1.unity
-    guid: 4bd93dd7b34ada649bbbd87f4aa2520e
-  - enabled: 0
-    path: Assets/Scenes/Auditori/Kelas 1/test.unity
-    guid: 6792386cf94f47d479a37e069b98ecf2
   - enabled: 1
-    path: Assets/Scenes/Auditori/Kelas 1/test2.unity
+    path: Assets/Scenes/Auditori/Kelas 1/A_MateriKelas1.unity
     guid: 2dfd920785568f14f9018a2f409ea636
   m_configObjects: {}
