@@ -134,7 +134,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Auditori/Kelas 1/A_MateriKelas1.unity
     guid: 4bd93dd7b34ada649bbbd87f4aa2520e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Auditori/Kelas 1/test.unity
     guid: 6792386cf94f47d479a37e069b98ecf2
+  - enabled: 1
+    path: Assets/Scenes/Auditori/Kelas 1/test2.unity
+    guid: 2dfd920785568f14f9018a2f409ea636
   m_configObjects: {}

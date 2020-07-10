@@ -32,76 +32,83 @@ public class AudioPlayerUI : MonoBehaviour
 
     void Update()
     {
-        if (AudioPlayer.audioValue == AudioPlayer.audioMax)
+        if (AudioPlayer.clipMax-1 == AudioPlayer.audioNow && AudioPlayer.audioValue == AudioPlayer.audioMax )
             PauseStopAudio();
-        if (AudioPlayer.audioValue != 0)
+        else if (AudioPlayer.audioValue != 0)
             StartAudio();
     }
 
     public void StartAudio()
-    {
+    { 
+        if (AudioPlayer.audioStatus == true)
+        {
+            if (AudioPlayer.audioNow == 0)
+            {
+                playlistPlay0.SetActive(false);
+                playlistPlay1.SetActive(true);
+                playlistPlay2.SetActive(true);
+                playlistPlay3.SetActive(true);
+
+                playlistPause0.SetActive(true);
+                playlistPause1.SetActive(false);
+                playlistPause2.SetActive(false);
+                playlistPause3.SetActive(false);
+            }
+            else if (AudioPlayer.audioNow == 1)
+            {
+                playlistPlay0.SetActive(true);
+                playlistPlay1.SetActive(false);
+                playlistPlay2.SetActive(true);
+                playlistPlay3.SetActive(true);
+
+                playlistPause0.SetActive(false);
+                playlistPause1.SetActive(true);
+                playlistPause2.SetActive(false);
+                playlistPause3.SetActive(false);
+            }
+            else if (AudioPlayer.audioNow == 2)
+            {
+                playlistPlay0.SetActive(true);
+                playlistPlay1.SetActive(true);
+                playlistPlay2.SetActive(false);
+                playlistPlay3.SetActive(true);
+
+                playlistPause0.SetActive(false);
+                playlistPause1.SetActive(false);
+                playlistPause2.SetActive(true);
+                playlistPause3.SetActive(false);
+            }
+            else if (AudioPlayer.audioNow == 3)
+            {
+                playlistPlay0.SetActive(true);
+                playlistPlay1.SetActive(true);
+                playlistPlay2.SetActive(true);
+                playlistPlay3.SetActive(false);
+
+                playlistPause0.SetActive(false);
+                playlistPause1.SetActive(false);
+                playlistPause2.SetActive(false);
+                playlistPause3.SetActive(true);
+            }
+        }
         
-        if (AudioPlayer.audioNow == 0)
-        {
-            playlistPlay0.SetActive(false);
-            playlistPlay1.SetActive(true);
-            playlistPlay2.SetActive(true);
-            playlistPlay3.SetActive(true);
-
-            playlistPause0.SetActive(true);
-            playlistPause1.SetActive(false);
-            playlistPause2.SetActive(false);
-            playlistPause3.SetActive(false);
-        }
-        else if (AudioPlayer.audioNow == 1)
-        {
-            playlistPlay0.SetActive(true);
-            playlistPlay1.SetActive(false);
-            playlistPlay2.SetActive(true);
-            playlistPlay3.SetActive(true);
-
-            playlistPause0.SetActive(false);
-            playlistPause1.SetActive(true);
-            playlistPause2.SetActive(false);
-            playlistPause3.SetActive(false);
-        }
-        else if (AudioPlayer.audioNow == 2)
-        {
-            playlistPlay0.SetActive(true);
-            playlistPlay1.SetActive(true);
-            playlistPlay2.SetActive(false);
-            playlistPlay3.SetActive(true);
-
-            playlistPause0.SetActive(false);
-            playlistPause1.SetActive(false);
-            playlistPause2.SetActive(true);
-            playlistPause3.SetActive(false);
-        }
-        else if (AudioPlayer.audioNow == 3)
-        {
-            playlistPlay0.SetActive(true);
-            playlistPlay1.SetActive(true);
-            playlistPlay2.SetActive(true);
-            playlistPlay3.SetActive(false);
-
-            playlistPause0.SetActive(false);
-            playlistPause1.SetActive(false);
-            playlistPause2.SetActive(false);
-            playlistPause3.SetActive(true);
-        }
 
     }
 
     public void PauseStopAudio()
     {
-        playlistPlay0.SetActive(true);
-        playlistPlay1.SetActive(true);
-        playlistPlay2.SetActive(true);
-        playlistPlay3.SetActive(true);
+        if(AudioPlayer.audioStatus == false)
+        {
+            playlistPlay0.SetActive(true);
+            playlistPlay1.SetActive(true);
+            playlistPlay2.SetActive(true);
+            playlistPlay3.SetActive(true);
 
-        playlistPause0.SetActive(false);
-        playlistPause1.SetActive(false);
-        playlistPause2.SetActive(false);
-        playlistPause3.SetActive(false);
+            playlistPause0.SetActive(false);
+            playlistPause1.SetActive(false);
+            playlistPause2.SetActive(false);
+            playlistPause3.SetActive(false);
+        }
+        
     }
 }

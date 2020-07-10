@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class AudioPlayer : MonoBehaviour
 {
@@ -13,6 +13,10 @@ public class AudioPlayer : MonoBehaviour
     public Slider audioLenght;
     public static float audioValue;
     public static float audioMax;
+    public static bool audioStatus = true;
+    
+    public static int clipMax;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -24,46 +28,33 @@ public class AudioPlayer : MonoBehaviour
     {
         audioValue = audioLenght.value;
         audioMax = audioLenght.maxValue;
+        clipMax = clipNames.Length;
+
         audioLenght.maxValue = clipNames[audioNow].length;
         audioLenght.value = audioSource.time;
-        if (audioLenght.value == audioLenght.maxValue && audioNow <= clipNames.Length)
+
+        if (audioValue == audioLenght.maxValue && audioNow == clipNames.Length-1)
+        {
+            StopAudio();
+        }
+        else if (audioLenght.value == audioLenght.maxValue && audioNow < clipNames.Length - 1)
         {
             audioNow++;
             StartAudio(audioNow);
         }
-        else if (audioLenght.value == audioLenght.maxValue && audioNow >= clipNames.Length)
+        
 
-
-
-        {
-            audioNow = 0;
-            StopAudio();
-
-        }
-        //if (!stop)
-        //{
-        //audioLenght.value += Time.deltaTime;
-        //if (audioLenght.value >= audioSource.clip.length)
-        //{
-        //audioNow++;
-        //if (audioNow >= clipNames.Length)
-        //{
-        //  StartAudio();
-
-        //}
-        //}
-        //}
     }
 
     public void StartAudio(int changeAudio)
     {
         audioNow = changeAudio;
+        audioStatus = true;
         audioSource.clip = clipNames[audioNow];
         audioName.text = audioSource.clip.name;
         audioLenght.maxValue = audioSource.clip.length;
         audioLenght.value = 0;
         audioSource.Play();
-
 
     }
 
@@ -94,10 +85,12 @@ public class AudioPlayer : MonoBehaviour
     public void PauseAudio()
     {
         audioSource.Pause();
+        audioStatus = false;
     }
 
     public void StopAudio()
     {
-        audioSource.Stop();
+        audioSource.Stop(); 
+        audioStatus= false;
     }
 }
