@@ -3,7 +3,17 @@ PlayerPath?
 D:/[BAMS]/sekolah/kuliah/materi/TAUN 4/TugasAkhir-GayaBelajar/Build/Test_Auditori.apk
 SceneListBegin?
 Assets/Scenes/KelasAuditori.unity
-Assets/Scenes/Auditori/Kelas 1/A_MateriKelas1.unity
+Assets/Scenes/Auditori/A_MateriKelas1.unity
+Assets/Scenes/Auditori/A_MateriKelas2.unity
+Assets/Scenes/Auditori/A_MateriKelas3.unity
+Assets/Scenes/Auditori/A_MateriKelas4.unity
+Assets/Scenes/Auditori/A2_BangunDatar.unity
+Assets/Scenes/Auditori/A2_BangunRuang.unity
+Assets/Scenes/Auditori/A3_Pencerminan.unity
+Assets/Scenes/Auditori/A3_SimetriLipat.unity
+Assets/Scenes/Auditori/A3_SimetriPutar.unity
+Assets/Scenes/Auditori/A4_Keliling.unity
+Assets/Scenes/Auditori/A4_Luas.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret

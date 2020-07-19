@@ -202,26 +202,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7042431550781594729, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
       propertyPath: m_IsActive
@@ -242,6 +222,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SceneLoaderString
       objectReference: {fileID: 0}
+    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431549673530791, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042431550729073097, guid: edda1e41d61a7d14781f53b04e787b0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7042431550729073103, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
       propertyPath: m_Text
@@ -250,9 +250,9 @@ PrefabInstance:
     - target: {fileID: 7042431551393348099, guid: edda1e41d61a7d14781f53b04e787b0b,
         type: 3}
       propertyPath: m_Text
-      value: "Bola merupakan bangun ruang yang dibentuk oleh bidang berbentuk dari
-        sebuah bidang lengkung. \r\n\r\nContoh benda berbentuk bola yang ada disekitar
-        kita antara lain bola sepak, bola bilyard, bola voli "
+      value: "Bola merupakan bangun ruang yang dibentuk oleh sebuah bidang berbentuk
+        bidang lengkung. \n\nContoh benda berbentuk bola yang ada disekitar kita antara
+        lain bola sepak, bola bilyard, dan bola voli "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edda1e41d61a7d14781f53b04e787b0b, type: 3}
