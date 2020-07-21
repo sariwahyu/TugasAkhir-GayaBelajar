@@ -122,10 +122,25 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 3.9509277
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_Name
-      value: SimetriPutar
+      propertyPath: m_AnchoredPosition.y
+      value: 8.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292369526850, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -147,30 +162,25 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 375.19
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Name
+      value: SimetriPutar
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795292579569715, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Name
       value: SimetriLipat
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 8.1
+      propertyPath: m_Name
+      value: Pencerminan
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_SizeDelta.y
-      value: -30.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517529, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 375
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -185,22 +195,12 @@ PrefabInstance:
     - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -39
+      value: -42.1
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 8.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Name
-      value: Pencerminan
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1756795292483228656, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -252,6 +252,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V_SimetriLipat
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911279, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3937c10202faa1247ab1a5df977b8cb9,
+        type: 3}
     - target: {fileID: 1756795292736911276, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -287,12 +293,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: V_Pencerminan
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911279, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 3937c10202faa1247ab1a5df977b8cb9,
-        type: 3}
+      propertyPath: m_Text
+      value: Simetri Putar
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795292369526853, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Color.r
@@ -313,10 +318,15 @@ PrefabInstance:
       propertyPath: m_Text
       value: Pencerminan
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795291662517528, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
-      value: Simetri Putar
+      value: Simetri Lipat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293492571743, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Materi
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -327,16 +337,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SceneLoaderString
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293492571743, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Text
-      value: Materi
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Text
-      value: Simetri Lipat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9ae7d9c2c92d8243b86a539ac5f0c54, type: 3}

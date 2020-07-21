@@ -142,6 +142,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: KelasAuditori
       objectReference: {fileID: 0}
+    - target: {fileID: 127867644895238304, guid: 7b1fd089cd050854dabf731479d08760,
+        type: 3}
+      propertyPath: m_Text
+      value: Auditori
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b1fd089cd050854dabf731479d08760, type: 3}
 --- !u!114 &3100103957436529381 stripped

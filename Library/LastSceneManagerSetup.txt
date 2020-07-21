@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Visual/Kelas 3/V3_SP_SegitigaSamaSisi.unity
+- path: Assets/Scenes/Auditori/A4_Luas.unity
   isLoaded: 1
   isActive: 1

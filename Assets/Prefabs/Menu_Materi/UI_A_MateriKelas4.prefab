@@ -117,20 +117,25 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3643135949578609096, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: A4_Keliling
-      objectReference: {fileID: 0}
     - target: {fileID: 3643135951178542132, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: A4_Luas
       objectReference: {fileID: 0}
+    - target: {fileID: 3643135949578609096, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: A4_Keliling
+      objectReference: {fileID: 0}
     - target: {fileID: 3643135950525835954, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: KelasAuditori
+      objectReference: {fileID: 0}
+    - target: {fileID: 4383610783000562355, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2,
+        type: 3}
+      propertyPath: m_Text
+      value: Auditori
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68cf2df3bd4e1e24096e9b3cb6f516d2, type: 3}

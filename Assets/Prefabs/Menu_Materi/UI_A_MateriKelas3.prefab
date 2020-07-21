@@ -117,15 +117,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7266569167861697300, guid: e37a6424cb2c88d4d89aa7a2e76bad34,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: A3_SimetriPutar
-      objectReference: {fileID: 0}
     - target: {fileID: 7266569167974824145, guid: e37a6424cb2c88d4d89aa7a2e76bad34,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: A3_SimetriLipat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266569167861697300, guid: e37a6424cb2c88d4d89aa7a2e76bad34,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: A3_SimetriPutar
       objectReference: {fileID: 0}
     - target: {fileID: 7266569169755189064, guid: e37a6424cb2c88d4d89aa7a2e76bad34,
         type: 3}
@@ -136,6 +136,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: KelasAuditori
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674899268430549930, guid: e37a6424cb2c88d4d89aa7a2e76bad34,
+        type: 3}
+      propertyPath: m_Text
+      value: Auditori
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37a6424cb2c88d4d89aa7a2e76bad34, type: 3}
