@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Auditori/A4_Luas.unity
+- path: Assets/Scenes/test_AR.unity
   isLoaded: 1
   isActive: 1

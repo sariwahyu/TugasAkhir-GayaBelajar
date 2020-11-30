@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="TitikE" size="100.000000 100.000000" />
+    <ImageTarget name="TitikD" size="100.000000 100.000000" />
+    <ImageTarget name="TitikC" size="100.000000 100.000000" />
+    <ImageTarget name="TitikB" size="100.000000 100.000000" />
+    <ImageTarget name="TitikA" size="100.000000 100.000000" />
+  </Tracking>
+</QCARConfig>
