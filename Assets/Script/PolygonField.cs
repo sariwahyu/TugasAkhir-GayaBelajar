@@ -1,252 +1,279 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class PolygonField : MonoBehaviour {
+public class PolygonField : MonoBehaviour
+{
+    public GameObject[] goRaw;
+    public Text[] goTextAngle;
+    public Text[] goTextDsitance;
+    public Text perimeterText;
+    public Text areaText;
+    public Text typeText;
 
-	public GameObject[] go_raw;
-	public Text[] go_text_angle;
-	public Text[] go_text_distance;
-	public Text perimeter_text;
-	public Text area_text;
-	public Text type_text;
+    private Vector2[] goPoints;
+    private Text[] goPointsTextA;
+    private Text[] goPointsTextD;
+    private GameObject[] go_n;
 
-	private Vector2[] go_points;
-	private Text[] go_points_text_a;
-	private Text[] go_points_text_d;
-	private GameObject[] go_n;
+    private LineRenderer lineRenderer;
+    private MeshFilter filter;
 
-	private LineRenderer lineRenderer;
-	private MeshFilter filter;
+    // Start is called before the first frame update
+    void Start()
+    {
+        lineRenderer = gameObject.GetComponent<LineRenderer>();
+        filter = gameObject.GetComponent<MeshFilter>();
+    }
 
-	void Start () {
-		lineRenderer = gameObject.GetComponent<LineRenderer>();
-		filter = gameObject.GetComponent<MeshFilter> ();
-	}
+    // Update is called once per frame
+    void Update()
+    {
+        getAllAvailablePoints();
+        draw();
+        drawLines();
+        calculation();
+    }
 
-	void Update () {
-		getAllAvailablePoints ();
-		draw ();
-		drawLines ();
-		calculation ();
-	}
+    //distance between two points (pythagoras)
+    private float distance(float x1, float y1, float x2, float y2)
+    {
+        float a = Mathf.Abs(x1 - x2);
+        float b = Mathf.Abs(y1 - y2);
+        float c = Mathf.Sqrt(a * a + b * b);
 
-	private void getAllAvailablePoints(){
-		// Create new Vector2 and Text Lists
-		List<Vector2> vertices2DList = new List<Vector2>();
-		List<Text> textAList = new List<Text>();
-		List<Text> textDList = new List<Text>();
-		List<GameObject> oList = new List<GameObject>();
+        return c;
+    }
 
-		// Fill lists if availble
-		for(int i = 0; i < go_raw.Length; i++){
-			if (go_raw [i] != null) {
-				if (go_raw [i].GetComponent<MeshRenderer> ().enabled) {
-					go_text_angle [i].enabled = true;
-					go_text_distance [i].enabled = true;
+    //angle between two lines(three points) anticlockwise
+    private float angle(float i1, float i2, float i3, float p1x, float p1y, float p2x, float p2y, float p3x, float p3y)
+    {
+        float k = ((i2 * i2) + (i1 * i1) - (i3 * i3)) / (2 * i1 * i2);
+        float d = Mathf.Acos(k) * (180 / Mathf.PI);
 
-					vertices2DList.Add (new Vector2 (go_raw [i].transform.position.x, go_raw [i].transform.position.y));
-					textAList.Add (go_text_angle [i]);
-					textDList.Add (go_text_distance [i]);
-					oList.Add ( go_raw [i] );
-				} else {
-					go_text_angle [i].enabled = false;
-					go_text_distance [i].enabled = false;
-				}
-			}
-		}
+        float dd = direction(p1x, p1y, p2x, p2y, p3x, p3y);
 
-		// Convert to array
-		go_points_text_a = textAList.ToArray ();
-		go_points_text_d = textDList.ToArray ();
-		go_points = vertices2DList.ToArray ();
-		go_n = oList.ToArray ();
-	}
+        if (dd > 0)
+        {
+            d = 360 - d;
+        }
 
-	// Draw Mesh for Mesh Filter
-	private void draw(){
-		// Create Vector2 vertices
-		Vector2[] vertices2D = go_points;
+        return d;
+    }
 
-		// Use the triangulator to get indices for creating triangles
-		Triangulator tr = new Triangulator(vertices2D);
-		int[] indices = tr.Triangulate();
+    private float direction(float x1, float y1, float x2, float y2, float x3, float y3)
+    {
+        float d = ((x2 - x1) * (y3 - y1)) - ((y2 - y1) * (x3 - x1));
+        return d;
+    }
 
-		// Create the Vector3 vertices
-		Vector3[] vertices = new Vector3[vertices2D.Length];
-		for (int i = 0; i < vertices.Length; i++) {
-			vertices[i] = new Vector3(go_n[i].transform.position.x, go_n[i].transform.position.y, go_n[i].transform.position.z);
-		}
+    //middle point between two points
+    private Vector2 midPoint(float x1, float y1, float x2, float y2)
+    {
+        float x = (x1 + x2) / 2;
+        float y = (y1 + y2) / 2;
+        return new Vector2(x, y);
+    }
 
-		// Create the mesh
-		Mesh msh = new Mesh();
-		msh.vertices = vertices;
-		msh.triangles = indices;
-		msh.RecalculateNormals();
-		msh.RecalculateBounds();
+    //zero way angle between two points
+    private float angleZero(float x1, float y1, float x2, float y2)
+    {
+        float xDiff = x2 - x1;
+        float yDiff = y2 - y1;
+        float d = Mathf.Atan2(yDiff, xDiff) * (180 / Mathf.PI);
 
-		// Set up game object with mesh;
-		filter.mesh = msh;
-	}
+        return d;
+    }
 
-	// Draw Lines for Line Renderer
-	private void drawLines(){
-		// Set positions size
-		lineRenderer.positionCount = go_points.Length;
+    // Write shape type name 
+    private string shapeType(int points)
+    {
+        string r = "None";
 
-		// Set all line psitions
-		for(int i = 0; i < go_points.Length; i++){
-			lineRenderer.SetPosition(i, new Vector3(go_n[i].transform.position.x, go_n[i].transform.position.y, go_n[i].transform.position.z));
-		}
-	}
+        switch (points)
+        {
+            case 1:
+                r = "Titik";
+                break;
+            case 2:
+                r = "Garis";
+                break;
+            case 3:
+                r = "Segitiga";
+                break;
+            case 4:
+                r = "Segiempat";
+                break;
+            case 5:
+                r = "Segilima";
+                break;
+        }
 
-	private void calculation(){
-		// Perimeter varible
-		double p = 0;
-		// Area varible
-		double area = 0;
-		// Type varible
-		int n = 0;
+        return r;
+    }
 
-		// Loop all points
-		for(int i = 0; i < go_points.Length; i++){
-//			For test neighbors
-//			int x0, x1, x2;
+    private void getAllAvailablePoints()
+    {
+        // create new vector2 and text lists
+        List<Vector2> vertices2DList = new List<Vector2>();
+        List<Text> textAList = new List<Text>();
+        List<Text> textDList = new List<Text>();
+        List<GameObject> oList = new List<GameObject>();
 
-			// Point before
-			Vector2 v0;
-			if ((i - 1) >= 0) {
-				v0 = go_points [i-1];						// x0 = i - 1;
-			} else {
-				v0 = go_points [go_points.Length - 1];		// x0 = go_points.Length - 1;
-			}
+        // fill lists if available
+        for (int i = 0; i < goRaw.Length; i++)
+        {
+            if (goRaw[i] != null)
+            {
+                if(goRaw[i].GetComponent<MeshRenderer>().enabled)
+                {
+                    goTextAngle[i].enabled = true;
+                    goTextDsitance[i].enabled = true;
 
-			// Point now
-			Vector2 v1 = go_points [i];						// x1 = i;
+                    vertices2DList.Add(new Vector2(goRaw[i].transform.position.x, goRaw[i].transform.position.y));
+                    textAList.Add(goTextAngle[i]);
+                    textDList.Add(goTextDsitance[i]);
+                    oList.Add(goRaw[i]);
+                }
+                else
+                {
+                    goTextAngle[i].enabled = false;
+                    goTextDsitance[i].enabled = false;
+                }
+            }
+        }
 
-			// Point after
-			Vector2 v2;
-			if ((i + 1) < go_points.Length) {
-				v2 = go_points [i+1];						// x2 = i + 1;
-			} else {
-				v2 = go_points [0];							// x2 = 0;
-			}
+        // convert to array
+        goPointsTextA = textAList.ToArray();
+        goPointsTextD = textDList.ToArray();
+        goPoints = vertices2DList.ToArray();
+        go_n = oList.ToArray();
 
-			// triangular distances
-			double dv0 = distance (v0.x, v0.y, v1.x, v1.y); // v0 & v1
-			double dv1 = distance (v1.x, v1.y, v2.x, v2.y); // v1 & v2
-			double dv2 = distance (v0.x, v0.y, v2.x, v2.y); // v0 & v2
+    }
 
-			// Perimeter
+    private void draw()
+    {
+        // create vector2 vertice
+        Vector2[] vertice2D = goPoints;
 
-			p += dv1;
+        // use the triangulator to get indices for creating triangles
+        Triangulator tr = new Triangulator(vertice2D);
+        int[] indices = tr.Triangulate();
 
-			// Area
+        // create the vector3 vertices
+        Vector3[] vertices = new Vector3[vertice2D.Length];
+        for(int i = 0; i < vertices.Length; i++)
+        {
+            vertices[i] = new Vector3(go_n[i].transform.position.x, go_n[i].transform.position.y, go_n[i].transform.position.z);
+        }
 
-			double temp_area = (v1.x * v2.y) - (v1.y * v2.x);
-			area += temp_area;
+        // create the mesh
+        Mesh msh = new Mesh();
+        msh.vertices = vertices;
+        msh.triangles = indices;
+        msh.RecalculateNormals();
+        msh.RecalculateBounds();
 
-			// Type
+        // set up game object with mesh
+        filter.mesh = msh;
 
-			n++;
+    }
 
-			// Angle
+    private void drawLines()
+    {
+        // set positions size
+        lineRenderer.positionCount = goPoints.Length;
 
-			// Set point angle ∠v0v1v2
-			double a = angle (dv0, dv1, dv2, v0.x, v0.y, v1.x, v1.y, v2.x, v2.y);
-			go_points_text_a [i].text = Math.Round (a) +"°";
-			//	test neighbors 
-			//	go_points_text_a [i].text = i + "# " + x0 + " " + x1 + " " + x2;
+        // set all line postitions
+        for(int i = 0; i < goPoints.Length; i++)
+        {
+            lineRenderer.SetPosition(i, new Vector3(go_n[i].transform.position.x, go_n[i].transform.position.y, go_n[i].transform.position.z));
+        }
+    }
 
-			// Distance
+    private void calculation()
+    {
+        //perimeter varible
+        float p = 0;
+        //area varible
+        float area = 0;
+        //type varible 
+        int n = 0;
 
-			// Set distance position
-			Vector2 mp = midPoint (v1.x, v1.y, v2.x, v2.y);
-			go_points_text_d [i].transform.parent.position = new Vector3(mp.x, mp.y, go_points_text_d[i].transform.parent.position.z );
+        //loop all points
+        for(int i = 0; i < goPoints.Length; i++)
+        {
+            //for test neighbors 
+            //int x0, x1, x2
 
-			// Set distance angle
-			double az = angle_zero (v1.x, v1.y, v2.x, v2.y);
-			go_points_text_d [i].transform.parent.eulerAngles = new Vector3(go_points_text_d [i].transform.parent.eulerAngles.x, go_points_text_d [i].transform.parent.eulerAngles.y, (float)az);
+            //point before
+            Vector2 v0;
+            if ((i-1) >= 0)
+            {
+                v0 = goPoints[i - 1];  //x0 = i - 1;
+            }
+            else
+            {
+                v0 = goPoints[goPoints.Length - 1]; //x0 = goPoints.Lenght - 1;
+            }
 
-			// Set "point" and "point after" distance
-			go_points_text_d [i].text = Math.Round (dv1, 2) + "";
-		}
+            //point now
+            Vector2 v1 = goPoints[i]; //x1 = i;
 
-		// Set perimeter
-		perimeter_text.text = "Perimeter: "+ Math.Round (p, 2);
+            //point after
+            Vector2 v2;
+            if ((i + 1) < goPoints.Length)
+            {
+                v2 = goPoints[i + 1]; //x2 = i + 1;
+            }
+            else
+            {
+                v2 = goPoints[0]; //x2 = 0;
+            }
 
-		// Set area
-		area_text.text = "Area: "+ Math.Round ( Math.Abs(area / 2), 2);
+            //triangular distances
+            float dv0 = distance(v0.x, v0.y, v1.x, v1.y); //v0 & v1
+            float dv1 = distance(v1.x, v1.y, v2.x, v2.y); //v1 & v2
+            float dv2 = distance(v0.x, v0.y, v2.x, v2.y); //v0 & v2
 
-		// Set type
-		type_text.text = "Type: "+ shapeType(n);
-	}
+            //perimeter
+            p += dv1;
 
-	// Distance between two points (Pitagor theory)
-	private double distance(float x1, float y1, float x2, float y2){
-		float a = Math.Abs(x1 - x2);
-		float b = Math.Abs(y1 - y2);
-		double c = Math.Sqrt(a*a + b*b);
+            //area
+            float temp_area = (v1.x * v2.y) - (v1.y * v2.x);
+            area += temp_area;
 
-		return c;
-	}
+            //type
+            n++;
 
-	// Angle between two lines(three points) anticlockwise
-	private double angle(double i1, double i2, double i3, float p1x, float p1y, float p2x, float p2y, float p3x, float p3y){
-		double k = ((i2 * i2) + (i1 * i1) - (i3 * i3)) / (2 * i1 * i2);
-		double d = Math.Acos ( k ) * (180 / Math.PI);
+            //angle//
+            //set point angle ∠v0v1v2
+            float a = angle(dv0, dv1, dv2, v0.x, v0.y, v1.x, v1.y, v2.x, v2.y);
+            goPointsTextA[i].text = Mathf.Round(a) + "°";
+            //text neighbors
+            //goPointsTextA[i].text = 1 + "#" + x0 + " " + x1 + " " + x2;
 
-		double dd = direction ( p1x, p1y, p2x, p2y, p3x, p3y );
+            //distance
+            //set distance postition
+            Vector2 mp = midPoint(v1.x, v1.y, v2.x, v2.y);
+            goPointsTextD[i].transform.parent.position = new Vector3(mp.x, mp.y, goPointsTextD[i].transform.parent.position.z);
 
-		if (dd > 0) {
-			d = 360 - d;
-		}
+            //set distance angle 
+            float az = angleZero(v1.x, v1.y, v2.x, v2.y);
+            goPointsTextD[i].transform.parent.eulerAngles = new Vector3(goPointsTextD[i].transform.parent.eulerAngles.x, goPointsTextD[i].transform.parent.eulerAngles.y, (float)az);
 
-		return d;
-	}
-	private double direction(float x1, float y1, float x2, float y2, float x3, float y3){
-		double d = ((x2 - x1)*(y3 - y1)) - ((y2 - y1)*(x3 - x1));
-		return d;
-	}
+            //set "point" and "pont after" distance
+            goPointsTextD[i].text = System.Math.Round(dv1, 2) + "";
+        }
 
-	// Middle Point betwwen two points
-	private Vector2 midPoint(float x1, float y1, float x2, float y2){
-		float x = (x1 + x2) / 2;
-		float y = (y1 + y2) / 2;
-		return new Vector2 (x, y);
-	}
+        //set perimeter 
+        perimeterText.text = "Perimeter : " + System.Math.Round(p, 2);
 
-	// Zero way angle betwwen two points
-	private double angle_zero(float x1, float y1, float x2, float y2){
-		double xDiff = x2 - x1;
-		double yDiff = y2 - y1;
-		double d = Math.Atan2(yDiff, xDiff) * (180 / Math.PI);
-		return d;
-	}
+        //set area
+        areaText.text = "Area: " + System.Math.Round(Mathf.Abs(area / 2), 2);
 
-	// Write shape type name
-	private string shapeType(int points){
-		string r = "None";
-
-		switch (points) {
-			case 1:	
-				r = "Dot";
-			break;
-			case 2:
-				r = "Straight";
-			break;
-			case 3:
-				r = "Triangle";
-			break;
-			case 4:
-				r = "Quadrangle";
-			break;
-			case 5:
-				r = "Pentagon";
-			break;
-		}
-
-		return r;
-	}
+        //set type
+        typeText.text = "Type: " + shapeType(n);
+    }
 }

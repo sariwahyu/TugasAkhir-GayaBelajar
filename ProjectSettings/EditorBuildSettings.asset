@@ -164,7 +164,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Auditori/A4_Luas.unity
     guid: 56e0c352a3c15c24c8ddc81ecb3f4d86
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/test_AR.unity
     guid: 450befa7357e3e04f813a925f46f62ff
+  - enabled: 1
+    path: Assets/Scenes/test_opsi2.unity
+    guid: 39717c901a92f7c4a8d2944aafc2060d
   m_configObjects: {}
