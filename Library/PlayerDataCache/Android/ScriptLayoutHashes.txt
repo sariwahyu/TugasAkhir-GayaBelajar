@@ -1,8 +1,59 @@
 Android
 PlayerPath?
-D:/documents/TugasAkhir-GayaBelajar/Build/Test_opsi2.apk
+D:/documents/TugasAkhir-GayaBelajar/Build/Test_visual_auditori.apk
 SceneListBegin?
-Assets/Scenes/test_opsi2.unity
+Assets/Scenes/MainMenu.unity
+Assets/Scenes/GayaBelajar.unity
+Assets/Scenes/KelasAuditori.unity
+Assets/Scenes/KelasVisual.unity
+Assets/Scenes/Visual/Kelas 1/V_MateriKelas1.unity
+Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
+Assets/Scenes/Visual/Kelas 1/V1_Balok.unity
+Assets/Scenes/Visual/Kelas 1/V1_Tabung.unity
+Assets/Scenes/Visual/Kelas 1/V1_Bola.unity
+Assets/Scenes/Visual/Kelas 2/V_MateriKelas2.unity
+Assets/Scenes/Visual/Kelas 2/V_NamaBangunDatar.unity
+Assets/Scenes/Visual/Kelas 2/V2_Persegi.unity
+Assets/Scenes/Visual/Kelas 2/V2_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 2/V2_Segitiga.unity
+Assets/Scenes/Visual/Kelas 2/V_NamaBangunRuang.unity
+Assets/Scenes/Visual/Kelas 2/V2_Kubus.unity
+Assets/Scenes/Visual/Kelas 2/V2_Balok.unity
+Assets/Scenes/Visual/Kelas 2/V2_Limas.unity
+Assets/Scenes/Visual/Kelas 2/V2_Prisma.unity
+Assets/Scenes/Visual/Kelas 3/V_MateriKelas3.unity
+Assets/Scenes/Visual/Kelas 3/V_Pencerminan.unity
+Assets/Scenes/Visual/Kelas 3/V3_P_Persegi.unity
+Assets/Scenes/Visual/Kelas 3/V3_P_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 3/V3_P_SegitigaSamaSisi.unity
+Assets/Scenes/Visual/Kelas 3/V_SimetriLipat.unity
+Assets/Scenes/Visual/Kelas 3/V3_SL_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 3/V3_SL_Persegi.unity
+Assets/Scenes/Visual/Kelas 3/V3_SL_SegitigaSamaSisi.unity
+Assets/Scenes/Visual/Kelas 3/V_SimetriPutar.unity
+Assets/Scenes/Visual/Kelas 3/V3_SP_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 3/V3_SP_Persegi.unity
+Assets/Scenes/Visual/Kelas 3/V3_SP_SegitigaSamaSisi.unity
+Assets/Scenes/Visual/Kelas 4/V_MateriKelas4.unity
+Assets/Scenes/Visual/Kelas 4/V_Keliling.unity
+Assets/Scenes/Visual/Kelas 4/V4_K_Persegi.unity
+Assets/Scenes/Visual/Kelas 4/V4_K_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 4/V4_K_Segitiga.unity
+Assets/Scenes/Visual/Kelas 4/V_Luas.unity
+Assets/Scenes/Visual/Kelas 4/V4_L_Persegi.unity
+Assets/Scenes/Visual/Kelas 4/V4_L_PersegiPanjang.unity
+Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
+Assets/Scenes/Auditori/A_MateriKelas1.unity
+Assets/Scenes/Auditori/A_MateriKelas2.unity
+Assets/Scenes/Auditori/A_MateriKelas3.unity
+Assets/Scenes/Auditori/A_MateriKelas4.unity
+Assets/Scenes/Auditori/A2_BangunDatar.unity
+Assets/Scenes/Auditori/A2_BangunRuang.unity
+Assets/Scenes/Auditori/A3_Pencerminan.unity
+Assets/Scenes/Auditori/A3_SimetriLipat.unity
+Assets/Scenes/Auditori/A3_SimetriPutar.unity
+Assets/Scenes/Auditori/A4_Keliling.unity
+Assets/Scenes/Auditori/A4_Luas.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -55,6 +106,8 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 60299e3256cefab3692cd76700ee58c7 Assembly-CSharp.dll:.TrackableSettings
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
