@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 4ccf87a05e9052641a2149d081e9c594
   - enabled: 1
+    path: Assets/Scenes/GayaBelajarPetunjuk.unity
+    guid: 0bab6ad83e8eb8643a8547098cf7d7ce
+  - enabled: 1
+    path: Assets/Scenes/PetunjukAuditori.unity
+    guid: 921e1ebe7d079d24cbc5850065bb0e9c
+  - enabled: 1
+    path: Assets/Scenes/PetunjukVisual.unity
+    guid: bcffa2ffcdbc5754c86e0848362aed86
+  - enabled: 1
+    path: Assets/Scenes/PetunjukVisual1.unity
+    guid: 4296825185deaf94fbda5d97a3ede7c0
+  - enabled: 1
     path: Assets/Scenes/GayaBelajar.unity
     guid: 508ac211db96b0d42a38b785d9901ae3
-  - enabled: 1
-    path: Assets/Scenes/KelasAuditori.unity
-    guid: c35c35b28418f7f47beb605b0d39b488
-  - enabled: 0
-    path: Assets/Scenes/KelasKinestetik.unity
-    guid: 6073e04d33999ef42b0a9465b3d62485
   - enabled: 1
     path: Assets/Scenes/KelasVisual.unity
     guid: 15c8e5d8394251d4d8c6841d4beaeb15
@@ -132,23 +138,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
     guid: 0285220588cc9474bb3d4417af675493
   - enabled: 1
+    path: Assets/Scenes/KelasAuditori.unity
+    guid: c35c35b28418f7f47beb605b0d39b488
+  - enabled: 1
     path: Assets/Scenes/Auditori/A_MateriKelas1.unity
     guid: 2dfd920785568f14f9018a2f409ea636
   - enabled: 1
     path: Assets/Scenes/Auditori/A_MateriKelas2.unity
     guid: 7ae5e06cd23d297499a75590e34ab605
   - enabled: 1
-    path: Assets/Scenes/Auditori/A_MateriKelas3.unity
-    guid: e9df18edb49e023458beef1a9de86707
-  - enabled: 1
-    path: Assets/Scenes/Auditori/A_MateriKelas4.unity
-    guid: a05c4a95e58f4324b88297d65f06e93e
-  - enabled: 1
     path: Assets/Scenes/Auditori/A2_BangunDatar.unity
     guid: 3509685ca710128489a10521320bd6d9
   - enabled: 1
     path: Assets/Scenes/Auditori/A2_BangunRuang.unity
     guid: 88fa46a123dd0e64983b53b46425dfd1
+  - enabled: 1
+    path: Assets/Scenes/Auditori/A_MateriKelas3.unity
+    guid: e9df18edb49e023458beef1a9de86707
   - enabled: 1
     path: Assets/Scenes/Auditori/A3_Pencerminan.unity
     guid: 15cc816f82c38914b95aa36caebf9852
@@ -159,15 +165,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Auditori/A3_SimetriPutar.unity
     guid: e125f8bcca2d8cd418b3cdde5925edc3
   - enabled: 1
+    path: Assets/Scenes/Auditori/A_MateriKelas4.unity
+    guid: a05c4a95e58f4324b88297d65f06e93e
+  - enabled: 1
     path: Assets/Scenes/Auditori/A4_Keliling.unity
     guid: b6c60f77347ba0e4f90a1220fbcec075
   - enabled: 1
     path: Assets/Scenes/Auditori/A4_Luas.unity
     guid: 56e0c352a3c15c24c8ddc81ecb3f4d86
-  - enabled: 0
-    path: Assets/Scenes/test_AR.unity
-    guid: 450befa7357e3e04f813a925f46f62ff
-  - enabled: 0
-    path: Assets/Scenes/test_opsi2.unity
-    guid: 39717c901a92f7c4a8d2944aafc2060d
   m_configObjects: {}

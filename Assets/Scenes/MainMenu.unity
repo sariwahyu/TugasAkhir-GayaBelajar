@@ -202,8 +202,6 @@ MonoBehaviour:
           m_StringArgument: GayaBelajar
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &44442876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,8 +220,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: e6daa0d2e90c9b249a4765e7f50721b4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -296,8 +292,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3a57f09a12b5f4742a47752eb5a2cc11, type: 3}
     m_FontSize: 14
@@ -430,11 +424,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3100213881106798943, guid: 37291775449785f4b9ad907f21098f3b,
-        type: 3}
-      propertyPath: m_Name
-      value: SceneManager
-      objectReference: {fileID: 0}
     - target: {fileID: 778347546389843099, guid: 37291775449785f4b9ad907f21098f3b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -489,6 +478,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100213881106798943, guid: 37291775449785f4b9ad907f21098f3b,
+        type: 3}
+      propertyPath: m_Name
+      value: SceneManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37291775449785f4b9ad907f21098f3b, type: 3}
@@ -651,9 +645,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 874403821}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+      m_Calls:
+      - m_Target: {fileID: 3216001885862342023, guid: 37291775449785f4b9ad907f21098f3b,
+          type: 3}
+        m_MethodName: SceneLoaderString
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: GayaBelajarPetunjuk
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &874403821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -672,8 +676,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 3937c10202faa1247ab1a5df977b8cb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
@@ -746,8 +748,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: b54e0d7b6f0c9b642a09322b252153aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -886,8 +886,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3a57f09a12b5f4742a47752eb5a2cc11, type: 3}
     m_FontSize: 14
@@ -1065,8 +1063,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3a57f09a12b5f4742a47752eb5a2cc11, type: 3}
     m_FontSize: 14
@@ -1227,8 +1223,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3a57f09a12b5f4742a47752eb5a2cc11, type: 3}
     m_FontSize: 14
@@ -1306,8 +1300,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 40a543d134a2b674c859017282d6bd16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -1415,8 +1407,6 @@ MonoBehaviour:
           m_StringArgument: GayaBelajar
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &2043628572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1435,8 +1425,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 0d607adad958ad048aac51093e84bb18, type: 3}
   m_Type: 0
   m_PreserveAspect: 1

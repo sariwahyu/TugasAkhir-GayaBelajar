@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/test_AR.unity
+- path: Assets/Scenes/Visual/Kelas 3/V3_P_Persegi.unity
   isLoaded: 1
   isActive: 1

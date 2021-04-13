@@ -84,19 +84,11 @@
     <Compile Include="Assets\Common\Scripts\TapHandler.cs" />
     <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
     <Compile Include="Assets\Common\Scripts\VLog.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\MultiTargets\Scripts\MultiTargetTrackableEventHandler.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\ObjectReco\Scripts\ObjectRecoTrackableEventHandler.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\FrameQualityMeter.cs" />
     <Compile Include="Assets\SamplesResources\SceneAssets\UserDefinedTargets\Scripts\UDTEventHandler.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Scripts\VirtualButtonEventHandler.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\LookAtObject.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\PanelShowHide.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkHandler.cs" />
-    <Compile Include="Assets\SamplesResources\SceneAssets\VuMarks\Scripts\VuMarkTrackableEventHandler.cs" />
     <Compile Include="Assets\Script\AudioPlayer.cs" />
     <Compile Include="Assets\Script\AudioPlayerUI.cs" />
     <Compile Include="Assets\Script\LoadIndex.cs" />
-    <Compile Include="Assets\Script\PolygonField.cs" />
     <Compile Include="Assets\Script\RotasiSimetriLipat.cs" />
     <Compile Include="Assets\Script\RotasiSimetriPutar.cs" />
     <Compile Include="Assets\Script\SetActiveChildGlobal.cs" />
@@ -106,9 +98,7 @@
     <Compile Include="Assets\Script\SetActiveChildSegiEmpat.cs" />
     <Compile Include="Assets\Script\SetActiveChildSegiTiga.cs" />
     <Compile Include="Assets\Script\SetActiveDeactiveChild.cs" />
-    <Compile Include="Assets\Script\Triangulator.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-    <None Include="Assets\SamplesResources\SceneAssets\VirtualButtons\Shaders\Gradient.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Common\TextMeshPro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Common\TextMeshPro\Resources\LineBreaking Leading Characters.txt" />
@@ -134,6 +124,7 @@
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
     <None Include="Assets\Common\TextMeshPro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Common\TextMeshPro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Lean\READ ME.txt" />
     <None Include="Assets\Common\TextMeshPro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
@@ -150,18 +141,6 @@
     <None Include="Assets\Common\TextMeshPro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -737,9 +716,17 @@
       <Project>{2AAABD4F-7D80-06D8-7EEC-D26E4EEF33DB}</Project>
       <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{F175C4E7-F0B5-2081-2354-FC0C83E4A58B}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="VuforiaVersionCheckerScripts.csproj">
       <Project>{20DBDDAD-5857-7C45-542F-BE8F73C3AD2B}</Project>
       <Name>VuforiaVersionCheckerScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{41F5B98C-DF7E-3454-0914-9EBE6C6AE08D}</Project>
+      <Name>LeanTouch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -117,6 +117,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795292579569714, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -152,10 +157,50 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0.1000061
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795293098850818, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795292579569715, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.000061035156
+      propertyPath: m_Name
+      value: CiriBangunDatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7486877070608109007}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_NamaBangunDatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293097897398, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -197,25 +242,50 @@ PrefabInstance:
       propertyPath: m_AnchorMax.x
       value: 0.8694444
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292483228670, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569715, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Name
-      value: CiriBangunDatar
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292736911274, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1756795293097897399, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Name
       value: CiriBangunRuang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7486877070608109007}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SceneLoaderString
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: V_NamaBangunRuang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293098850818, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.000061035156
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293165085794, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
@@ -237,6 +307,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 6.7
       objectReference: {fileID: 0}
+    - target: {fileID: 1756795293165085797, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Ciri-Ciri Bangun Ruang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+        type: 3}
+      propertyPath: m_Text
+      value: Ciri-Ciri Bangun Datar
+      objectReference: {fileID: 0}
     - target: {fileID: 1756795293484726085, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -257,85 +337,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.4
       objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7486877070608109007}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneLoaderString
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795292579569717, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: A_NamaBangunDatar
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7486877070608109007}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SceneLoaderString
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293097897417, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: A_NamaBangunRuang
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293165085797, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
+    - target: {fileID: 1756795293492571743, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}
       propertyPath: m_Text
-      value: Ciri-Ciri Bangun Ruang
-      objectReference: {fileID: 0}
-    - target: {fileID: 1756795293484726084, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
-        type: 3}
-      propertyPath: m_Text
-      value: Ciri-Ciri Bangun Datar
+      value: Materi
       objectReference: {fileID: 0}
     - target: {fileID: 1756795293528107855, guid: d9ae7d9c2c92d8243b86a539ac5f0c54,
         type: 3}

@@ -1,10 +1,13 @@
 Android
 PlayerPath?
-D:/documents/TugasAkhir-GayaBelajar/Build/Test_visual_auditori.apk
+D:/documents/TugasAkhir-GayaBelajar/Build/AUGGOv2-Visual-Auditori.apk
 SceneListBegin?
 Assets/Scenes/MainMenu.unity
+Assets/Scenes/GayaBelajarPetunjuk.unity
+Assets/Scenes/PetunjukAuditori.unity
+Assets/Scenes/PetunjukVisual.unity
+Assets/Scenes/PetunjukVisual1.unity
 Assets/Scenes/GayaBelajar.unity
-Assets/Scenes/KelasAuditori.unity
 Assets/Scenes/KelasVisual.unity
 Assets/Scenes/Visual/Kelas 1/V_MateriKelas1.unity
 Assets/Scenes/Visual/Kelas 1/V1_Kubus.unity
@@ -43,20 +46,22 @@ Assets/Scenes/Visual/Kelas 4/V_Luas.unity
 Assets/Scenes/Visual/Kelas 4/V4_L_Persegi.unity
 Assets/Scenes/Visual/Kelas 4/V4_L_PersegiPanjang.unity
 Assets/Scenes/Visual/Kelas 4/V4_L_Segitiga.unity
+Assets/Scenes/KelasAuditori.unity
 Assets/Scenes/Auditori/A_MateriKelas1.unity
 Assets/Scenes/Auditori/A_MateriKelas2.unity
-Assets/Scenes/Auditori/A_MateriKelas3.unity
-Assets/Scenes/Auditori/A_MateriKelas4.unity
 Assets/Scenes/Auditori/A2_BangunDatar.unity
 Assets/Scenes/Auditori/A2_BangunRuang.unity
+Assets/Scenes/Auditori/A_MateriKelas3.unity
 Assets/Scenes/Auditori/A3_Pencerminan.unity
 Assets/Scenes/Auditori/A3_SimetriLipat.unity
 Assets/Scenes/Auditori/A3_SimetriPutar.unity
+Assets/Scenes/Auditori/A_MateriKelas4.unity
 Assets/Scenes/Auditori/A4_Keliling.unity
 Assets/Scenes/Auditori/A4_Luas.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+203fed2c689d819bfab67d217c628445 LeanTouch.dll:Lean.Touch.LeanFingerUpdate
 77c21079ace8d76ce6e941d3dabbfe6e Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -70,6 +75,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+392751f7657b9171736bd9b7261eb1cb LeanTouch.dll:Lean.Touch.LeanFingerDown
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 28bb33dc4fa56ae59a8cf266ce865179 Assembly-CSharp.dll:Lean.Touch.RotasiSimetriPutar
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -105,9 +111,12 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 60299e3256cefab3692cd76700ee58c7 Assembly-CSharp.dll:.TrackableSettings
+71bb6a6b6c8f052f948db64c7dd3ca4f LeanTouch.dll:Lean.Touch.LeanTouchEvents
 d3c76b14a25eebd3a3323dd43297919c Unity.TextMeshPro.dll:TMPro.TMP_InputField
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+1ea55d7abe2307363a713249b70fc2ed LeanCommon.dll:Lean.Common.Examples.LeanGuide
+d8b8560f3f696ef8cee90373f9baffae LeanTouch.dll:Lean.Touch.LeanSelect
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -140,6 +149,9 @@ aa165095bcf0f4d99594ea33df01c81b UnityEngine.UI.dll:UnityEngine.UI.Slider
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+f62dcae39ad4413b4d7e6f45e39b3ff7 LeanTouch.dll:Lean.Touch.LeanTwistRotateAxis
+eb27b06c0eaa67d17f6c84edaee630af LeanTouch.dll:Lean.Touch.LeanRoll
+cf1ad9af57e51d3949ba525fb4534068 LeanTouch.dll:Lean.Touch.LeanDestroy
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -172,10 +184,12 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultInitializationErrorHandler
 10b9b0bfbfc2827dafd9c9b24e6f02a4 Assembly-CSharp.dll:Lean.Touch.SetActiveChildLimasSegiEmpat
-906368757786169410efa8bbfdcaaf2f Assembly-CSharp.dll:.VuMarkHandler
+6c1ab29ddfcd6014cccb0aadc55da469 LeanTouch.dll:Lean.Touch.LeanPlane
+ee6a55fd6f4f0f59591afbf34813acf4 LeanTouch.dll:Lean.Touch.LeanFingerSwipe
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MessageBox
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadingScreen
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.TapHandler
+71bb6a6b6c8f052f948db64c7dd3ca4f LeanCommon.dll:Lean.Common.Examples.LeanUpgradeEventSystem
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 9c9e3aefb1a38429818a8565db877670 Assembly-CSharp.dll:Lean.Touch.SetActiveChildGlobal
 6313f57348386e2fdef13ef6f31d3acc Assembly-CSharp.dll:.AsyncSceneLoader
@@ -250,14 +264,15 @@ fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 8cf83f86a98f3959960cb2a582830232 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiEmpat
 8027024efc6a2692a2023d5ccd60c3cb Assembly-CSharp.dll:Lean.Touch.SetActiveDeactiveChild
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CloudRecoScanLine
+a73cc7e0d8575dd7105e0f0616a7253a LeanTouch.dll:Lean.Touch.LeanPulseScale
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 0d98521afeeb0d88cac4140c44268bfe Assembly-CSharp.dll:.AboutManager
-e91d00bb3b3a6065de1a0631b8367c34 Assembly-CSharp.dll:.PolygonField
+f130a8423e6424a57c8b7679ec028c5d LeanTouch.dll:Lean.Touch.LeanTwistRotate
 b35c35967bb6949fc094bfec5960c675 Assembly-CSharp.dll:.OptionsConfig
+94787cde64aea8d2ddd6cf5584f4b697 LeanTouch.dll:Lean.Touch.LeanInfoText
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.HyperlinkHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 01fcc7f57867df5301de76f18a6622d5 Assembly-CSharp.dll:Lean.Touch.SetActiveChildPrismaSegiTiga
-a5db3903435dbc695a76ee64f8ff9200 Assembly-CSharp.dll:.MultiTargetTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CloudErrorHandler
 7125fb122fb7d770e4ee0697b73cfab0 Assembly-CSharp.dll:.UDTEventHandler
 c312fcfdc704c07bde804c0cf8b879eb Assembly-CSharp.dll:.MenuAnimator
@@ -265,7 +280,7 @@ a8b22146a643367da479a63863852b30 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSe
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 34d15a5f28652fc061f6a154086ecbf5 Assembly-CSharp.dll:.NavigationHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MenuOptions
-98f2d5bdc5e6b7386cb59698d88014ce Assembly-CSharp.dll:.VirtualButtonEventHandler
+964dce81080816542d4e5b1440191200 LeanTouch.dll:Lean.Touch.LeanTouch
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -280,6 +295,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+67ff0514655e6b8be1eef9147b3f7076 LeanTouch.dll:Lean.Touch.LeanDragCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmbientLightManager
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
@@ -290,33 +306,41 @@ e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 7a25fcb81bf8eb2f157d591103c1dd7b UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.TestResultRendererCallback
+e2efc7cfa5234245c18c3065917d8945 LeanTouch.dll:Lean.Touch.LeanPath
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.InitErrorHandler
 931f489e44eadf809e9310429c99dde5 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+003f3e894b4e5f99d2fa47238a01d5be LeanTouch.dll:Lean.Touch.LeanSelectable
+253ead52687ebcf6bf2e6bb68055e28a LeanTouch.dll:Lean.Touch.LeanFingerOld
 931f489e44eadf809e9310429c99dde5 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+564363b71973ff9b7c6dafd1d3a1fcfb LeanCommon.dll:Lean.Common.Examples.LeanLinkTo
 dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandler
 9870d07becb995371db036f64345cf30 Assembly-CSharp.dll:.FrameQualityMeter
+f60dcd5f5b8383f6a0a75b8c21b7aa79 LeanTouch.dll:Lean.Touch.LeanPinchScale
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 716f7c2ef42786f749432eef57f8a2f1 Assembly-CSharp.dll:.CloudRecoEventHandler
-badf7893350f100272d1ce098e5e3562 Assembly-CSharp.dll:.LookAtObject
 1bc1648c519e8fc90c758f59d71bdf8f Assembly-CSharp.dll:.SamplesMainMenu
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-a4eacf27427895be6b0448fa1d76e436 Assembly-CSharp.dll:.PanelShowHide
+9277194e3007f91c41cc4dd392ebc5cb LeanTouch.dll:Lean.Touch.LeanSelectableSpriteRendererColor
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadIndex
+fcf12f28f5827567b1a7c408ff480a64 LeanTouch.dll:Lean.Touch.LeanFingerTap
 85191827d234844d821a5880477c66be Assembly-CSharp.dll:.AudioPlayer
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
-6f3f834630b8c842f18320156d98e63a Assembly-CSharp.dll:.ObjectRecoTrackableEventHandler
+9277194e3007f91c41cc4dd392ebc5cb LeanTouch.dll:Lean.Touch.LeanSelectableGraphicColor
 3b500485fe7613bb94849043a2980d62 Assembly-CSharp.dll:Lean.Touch.SetActiveChildSegiTiga
+90bfd3cba6e09c1bfbfe3b4fb78353c3 LeanTouch.dll:Lean.Touch.LeanDragTranslate
+253ead52687ebcf6bf2e6bb68055e28a LeanTouch.dll:Lean.Touch.LeanFingerUp
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.VuMarkTrackableEventHandler
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 5deb05d50bbaea852849b56df66bb301 Assembly-CSharp.dll:.SafeAreaManager
+4e0bfd1d29eec1f3cda6b997a7d81004 LeanTouch.dll:Lean.Touch.LeanDragTrail
+39a9bb9768c8206c97dc997d364a6275 LeanTouch.dll:Lean.Touch.LeanSpawn
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 6d2427934452bbb644b220155ca9bc17 Assembly-CSharp.dll:Lean.taouch.RotasiSimetriLipat
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -353,6 +377,7 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.FrameRateSettings
+330f62fcfa21b2047340eab154927cfc LeanTouch.dll:Lean.Touch.LeanSelectableRendererColor
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.BackgroundPlaneBehaviour

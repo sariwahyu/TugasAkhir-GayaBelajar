@@ -201,10 +201,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 581433461926027080, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
+    - target: {fileID: 581433461404565144, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
         type: 3}
-      propertyPath: m_Name
-      value: UI_KelasVisual
+      propertyPath: m_AnchoredPosition.y
+      value: 2.0100098
+      objectReference: {fileID: 0}
+    - target: {fileID: 581433461816641748, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.8000488
       objectReference: {fileID: 0}
     - target: {fileID: 581433461926027076, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
         type: 3}
@@ -311,15 +316,15 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 581433461816641748, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
+    - target: {fileID: 581433461926027080, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
         type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.8000488
+      propertyPath: m_Name
+      value: UI_KelasVisual
       objectReference: {fileID: 0}
-    - target: {fileID: 581433461404565144, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
+    - target: {fileID: 581433463034083073, guid: fe99e08a71c8ace4aa9e71fe463d6a33,
         type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 2.0100098
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: GayaBelajar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe99e08a71c8ace4aa9e71fe463d6a33, type: 3}

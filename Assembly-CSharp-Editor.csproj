@@ -72,18 +72,6 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/documents/TugasAkhir-GayaBelajar/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
@@ -725,9 +713,17 @@
       <Project>{2AAABD4F-7D80-06D8-7EEC-D26E4EEF33DB}</Project>
       <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{F175C4E7-F0B5-2081-2354-FC0C83E4A58B}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="VuforiaVersionCheckerScripts.csproj">
       <Project>{20DBDDAD-5857-7C45-542F-BE8F73C3AD2B}</Project>
       <Name>VuforiaVersionCheckerScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{41F5B98C-DF7E-3454-0914-9EBE6C6AE08D}</Project>
+      <Name>LeanTouch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
